@@ -4,6 +4,7 @@ title: "Parker Solar Probe: Connecting Spacecraft Observations to the Sun’s Su
 author_profile: true
 redirect_from: 
   - /msci/
+  - /msci.html
 ---
 
 ## Lay Person Summary
