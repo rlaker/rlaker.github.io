@@ -1,5 +1,6 @@
 ---
 permalink: /msci/
+layout: default
 title: "Parker Solar Probe: Connecting Spacecraft Observations to the Sun’s Surface"
 author_profile: true
 redirect_from: 
