@@ -7,8 +7,19 @@ redirect_from:
 
 During my 4th year at Imperial College London (2018) I worked with Prof. T. S. Horbury for my MSci project. We used data from the newly launched Parker Solar Probe, and attempted to model where on the Sun this spacecraft was connected to. This work resulted in a co-authorship on the [FIELDS instrument's first result paper](https://www.nature.com/articles/s41586-019-1818-7).
 
-The Msci report can be read [here](/files/Ronan_Laker_Msci_Report.pdf), with a simplified summary below.
+The results of this project can be read in the [`report`](/files/Ronan_Laker_Msci_Report.pdf) or [`poster`](/files/Ronan_Laker_Tom_Woolley_poster.pdf)
 
+## Videos
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/GgJgghScZCc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+*The color gradient shows the speed of the simulated solar wind (using WSA-ENLIL model) with a more yellow colour indicating a faster solar wind. Top left shows the solar wind and Parker Solar Probe orbit in an inertial frame, whereas the top right is the equivalent but in a frame corotating with the Sun's surface. Parker Solar Probe is shown by the white dot, and Earth by the green dot. The graph underneath shows the predicted velocity Parker Solar Probe was predicted to see for its first orbit in November 2018.*
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/G5ERYXIiIp8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+*Top left image is from the STEREO-A spacecraft, and the top right is from the SDO spacecraft ahead of Earth. The field of view of these images is shown by the shaded regions of the bottom graph, which is a magnetic map of the Sun's entire surface. Parker Solar Probe had its first closest approach in November 2018, and this links features such as coronal holes and active regions to the in situ data measured by Parker Solar Probe. The magnetic field line connecting to Parker Solar Probe is shown on the bottom graph and the relevant image to show the source region of the solar wind.*
+
+<a name="#summary"></a>
 ## Lay Person Summary
 
 The night sky is filled with a billion-trillion stars, although most can only be seen with powerful telescopes. Given their abundance it is essential that we study them to further our own knowledge of the universe. But stars are far away, and it would take thousands of years to reach them with a spacecraft. Well, lucky for us, there happens to be a star right on our front doorstep: the Sun.
