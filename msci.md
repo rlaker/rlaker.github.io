@@ -7,7 +7,7 @@ redirect_from:
 
 During my 4th year at Imperial College London (2018) I worked with Prof. T. S. Horbury for my MSci project. We used data from the newly launched Parker Solar Probe, where we attempted to model where on the Sun this spacecraft was connected. This work resulted in a co-authorship on the [FIELDS instrument's first result paper](https://www.nature.com/articles/s41586-019-1818-7).
 
-The Msci report can be read [here](/files/msci_report.pdf), with a simplified summary below.
+The Msci report can be read [here](/files/Ronan_Laker_Msci_Report.pdf), with a simplified summary below.
 
 ## Lay Person Summary
 
