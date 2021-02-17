@@ -19,7 +19,7 @@ The results of this project can be read in the [**report**](/files/Ronan_Laker_M
 
 *Top left image is from the STEREO-A spacecraft, and the top right is from the SDO spacecraft ahead of Earth. The field of view of these images is shown by the shaded regions of the bottom graph, which is a magnetic map of the Sun's entire surface. Parker Solar Probe had its first closest approach in November 2018, and this links features such as coronal holes and active regions to the in situ data measured by Parker Solar Probe. The magnetic field line connecting to Parker Solar Probe is shown on the bottom graph and the relevant image to show the source region of the solar wind.*
 
-<a name="#summary"></a>
+<a name="summary"></a>
 ## Lay Person Summary
 
 The night sky is filled with a billion-trillion stars, although most can only be seen with powerful telescopes. Given their abundance it is essential that we study them to further our own knowledge of the universe. But stars are far away, and it would take thousands of years to reach them with a spacecraft. Well, lucky for us, there happens to be a star right on our front doorstep: the Sun.
