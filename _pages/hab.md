@@ -228,3 +228,5 @@ These rules do not apply to the UK but can be used as a guide and suggest the fo
   * Use of 50lb braided line is suggested for connecting the balloon to the payload (the braiding stops the spinning of the payload during flight)
   * Try and keep the payload weight as light as possible
   * Spread out the heavy items within the payload to reduce the concentration of weight per area
+
+[Top](#guide)
