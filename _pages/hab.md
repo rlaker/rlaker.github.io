@@ -29,7 +29,7 @@ I built and launched a High Altitude Balloon (HAB) over a perio of 3 months in t
 8. [NOTAM](#notam)
 
 <a name="radio"></a>
-### Radio
+## Radio
 
 A good way to start with this project is to track other people's balloons. Most payloads (box carried by the balloon) transmit radio signals around the 434MHz mark, this means that with the right aerial anyone (within a certain radius) can pick up the signals, decode them and upload them to a live map.
 
@@ -49,7 +49,7 @@ After reading which antenna would suit you best in the [next section](#antenna),
 The green banner shows that a good lock has been achieved, this string will then be uploaded to the live map.
 
 <a name="antenna"></a>
-### Antenna
+## Antenna
 
 To start with I just used a simple magnetic whip antenna that would stick to the roof of a car. This is useful for when you just want to test if the SDR works, or to test your payload (which happened a lot). However, in order to track other balloons all around the country, it is worth investing in a Yagi antenna. At the start of the project, I was very optimistic about my antenna making skills so I made several basic antennas. I made a large collinear antenna by following a [tutorial](http://www.rason.org/Projects/collant/collant.htm), which is basically 4 sections of coaxial cable soldered together to create a standing wave that would amplify the signal. I also made a very basic Yagi antenna as seen below out of thin copper wire and an old paint brush for a handle. This did pick up signals but was nowhere near as good as a proper Yagi.
 
@@ -58,7 +58,7 @@ To start with I just used a simple magnetic whip antenna that would stick to the
 In the end we opted to buy the [Diamond A430S10R 70cm 10 Element Yagi](https://www.diamondantenna.net/a430s10.html) which worked really well and enabled us to track a balloon from Sheffield (~100 miles away). 
 
 <a name="experiments"></a>
-### Experiments
+## Experiments
 
 We used the [Pi in the Sky board](http://www.pi-in-the-sky.com/) that connects on top of a Raspberry Pi A+ model. This gave us GPS location and radio transmitting capability, that would have otherwise taken months to achieve from scratch. This also came with source code that included support for a few sensors. One of these sensors was the [BME280](https://www.adafruit.com/product/2652), which measures pressure, temperature and relative humidity so this was an obvious starting point. I had taken a course on astrophysics where we were taught about the structure of atmospheres on different planets. From this (and other prior knowledge) I knew that the temperature would show me the Troposphere and Stratosphere, whilst the pressure should exponentially decay. More research led me to an article describing how the speed of sound should vary with height, this was also something that was easily measured with an ultrasonic range finder ([HCSR04](https://cdn.sparkfun.com/datasheets/Sensors/Proximity/HCSR04.pdf)). 
 
@@ -67,7 +67,7 @@ I also knew that the Ozone layer blocked 'UV' light and on research, I found sev
 I originally chose the Raspberry Pi over the Arduino as I thought I could use Python to work with the sensors. However, this was not the case and I ended up just hacking some Arduino code to make the sensors work with the Pi in the Sky board, which can be found on my [GitHub](https://github.com/rlaker?tab=repositories). So I would use the Arduino in future as there are a wider range of sensors that are easier to set up.
 
 <a name="photography"></a>
-### Photography
+## Photography
 
 We chose a [RPi camera](https://thepihut.com/collections/raspberry-pi-camera/products/raspberry-pi-camera-module) as the stills camera, which gave excellent results.
 
@@ -76,17 +76,17 @@ For the video camera we chose a GoPro session which cost around £150.  This go 
 Note that we tried a [cheaper alternative]((https://www.amazon.co.uk/AKASO-EK7000-Waterproof-Rechargeable-Accessories/dp/B01HPXH29Q/ref=sr_1_1?s=electronics&ie=UTF8&qid=1520175208&sr=1-1&keywords=gopro+alternative) which cost half the price of the GoPro, but this failed to record continuous video when tested in our fridge, failing after only 30 minutes under cold conditions.
 
 <a name="payload"></a>
-### Payload
+## Payload
 
 We built the payload with 25mm styrofoam and [UHU Por glue](https://www.amazon.co.uk/UHU-Styrofoam-Adhesive-40Gram-Tube/dp/B000KSQU1K/ref=sr_1_1?ie=UTF8&qid=1520174129&sr=8-1&keywords=styrofoam+glue).
 
-#### Backup Tracker
+### Backup Tracker
 We used a backup tracker for peace of mind. This was a cheap GSM Tracker which we purchased from eBay. It requires a SIM card, which we sourced from AnywhereSIM with the idea that the SIM can swop automatically between providers (PAYG SIM from Argos). To get the location of the tracker you simply text it and it will send a reply text with its location and a link to the location on google maps. Testing showed the tracker to be remarkably accurate. However, we forgot to tape the battery into the unit and it became dislodged on landing and failed to respond (lesson learned).
 
-#### Batteries
+### Batteries
 The payload will have a flight time of 3-4 hours and encounter external temperatures of -50C. It is essential to use Lithium batteries (Lithium Iron Disulfide). The best type is Lithium Energizer AA which can be obtained from Amazon, Ebuyer, Camera shops.
 
-#### HabHub Payload Documents
+### HabHub Payload Documents
 The Habhub tracker is an excellent way to track your balloon and to have other people tracker it for you.  It has a built-in link to the CUSF Flight predictor so that it predicts the flight path and landing location in real time and also stores all the information on who tracked the flight, their location and how many packets they received.
 
 In order to get your flight to display on the HabHub Tracker you will need to submit two documents:
@@ -108,12 +108,12 @@ There is an excellent and detailed guide to the process [here](https://ukhas.org
 Note that there is a list of all #highaltitude commands to use on irc.freenote.net [here](https://www.google.com/url?q=https%3A%2F%2Fukhas.org.uk%2Fspacenearus_irc_bot&sa=D).
 
 <a name="balloon"></a>
-### Balloon
+## Balloon
 A weather balloon cannot be purchased without knowing the weight of the payload. We managed to keep the weight of our payload just below 1kg, including all items other than the balloon. We wanted to get well above the ozone layer for our experiments so we purchased a 1200g Hwoyee. With our payload this was predicted to reach 33.5km, but actually reached 35km.
 
 There is a Meteorological Balloon Burst Estimator on the [Random Engineering Website](http://www.randomengineering.co.uk/Random_Aerospace/Balloons.html ). Simply enter the balloon type, type of gas (Hydrogen / Helium), payload weight and the desired ascent rate (5m/s) and click calculate. This will calculate the amount of gas required, which is important as with our 1600g balloon and 1kg payload, we could fill it with a medium gas cylinder which is much easier to move around than the full size cylinder, and also cheaper.
 
-#### Helium
+### Helium
 There are two main supplier of helium in the UK, namely BOC and AirProducts.  However, buying directly from these supplier is very expensive and you may also have to purchase or rent a regulator. 
 
 However, these supplier sell the same gas through resellers for a much lower price as follows:
@@ -124,7 +124,7 @@ The same BOC cylinder can be purchased from BalloonHelium.co.uk for £106 (colle
 
 AirProducts supply helium in lighter Balloonium cylinders, which include a built in regulator and a quick connector (Universal Inflator).  The Medium cylinder contains 5.61 cu.m which is more than the BOC T-Cyclinder 3.6cu.m.
 
-#### Parachute
+### Parachute
 Choosing a parachute requires you to know the weight of the payload.  There are two main manufacturers (Rocketman and Spherachute) and both types can be purchased from Random Engineering.  We chose a Sphaerachute 36” is this gave us a wide range of payload weights and the parachute was lighter than the equivalent Rocketman.  These can be purchased from [Random Engineering](http://www.randomengineering.co.uk/Random_Aerospace/Parachutes.html ) or [Spherachutes](http://spherachutes.com/ ).
 
 You will also need a Nylon rope for connecting the payload to the balloon. Must be less than 50 pounds breaking strain and ideally braided to reduce the spinning of the payload during flight. This is supplied by [Random Engineering](http://www.randomengineering.co.uk/Random_Aerospace/Stuff.html).
