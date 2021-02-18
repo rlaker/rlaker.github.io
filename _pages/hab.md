@@ -1,7 +1,7 @@
 ---
 permalink: /hab/
 title: "High Altitude Balloon"
-author_profile: true
+author_profile: false
 redirect_from:
   - /HAB/
 ---
