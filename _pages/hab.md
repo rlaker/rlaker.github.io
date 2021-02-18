@@ -128,3 +128,102 @@ AirProducts supply helium in lighter Balloonium cylinders, which include a built
 Choosing a parachute requires you to know the weight of the payload.  There are two main manufacturers (Rocketman and Spherachute) and both types can be purchased from Random Engineering.  We chose a Sphaerachute 36” is this gave us a wide range of payload weights and the parachute was lighter than the equivalent Rocketman.  These can be purchased from [Random Engineering](http://www.randomengineering.co.uk/Random_Aerospace/Parachutes.html ) or [Spherachutes](http://spherachutes.com/ ).
 
 You will also need a Nylon rope for connecting the payload to the balloon. Must be less than 50 pounds breaking strain and ideally braided to reduce the spinning of the payload during flight. This is supplied by [Random Engineering](http://www.randomengineering.co.uk/Random_Aerospace/Stuff.html).
+
+<a name="launching"></a>
+## Launching
+
+### Filling the Balloon
+
+  * Layout the tarpaulin and prepare the balloon, filling apparatus and helium
+  * Check the CUSF flight and landing calculator. Change the parameters such as climb rate, launch time to determine the optimal amount of helium to be used to fill the balloon, together with the corresponding neck lift.
+  * Using a set of scales pour water into a container up the the required necklift and attach this container to the balloon neck
+  * Turn on the tracker and check the LED lights to see that everything is working. Using your tracking device check that you can successfully upload data packets to the HabHub Tracker.  Once you are happy start your cameras and seal the payload, checking that all the camera lenses are clear.
+  * Check that the backup tracker is working
+  * Begin filling the balloon with helium until the weight attached to the neck of the balloon clearly is suspended off the floor (i.e. it does not bounce up and down on the ground)
+  * Phone the local air traffic control to get permission to launch
+  * Check all around to see there are no aircraft nearby and launch.
+
+### Balloon Filling Equipment and connection to the balloon
+We followed the design shown on the [following website](https://ukhas.org.uk/guides:fill_tube ), but used two cable ties to affix the balloon neck.  The neck connector was made using 40mm PVC waste pipe, pipe insulation and mastic.
+
+We managed to connect this to a balloon filling nozzle on the helium cylinder using a jubilee clip and some duct tape. 
+
+![Balloon Filling Nozzle](/images/nozzle.jpg)
+
+<a name="notam"></a>
+## NOTAM
+
+This is a requirement to launch a weather balloon in the UK (see more details [here](https://ukhas.org.uk/general:restrictions_legality ).  It is imperative that a NOTAM is obtained to ensure a safe launch and also to preserve the reputation of all other High Altitude Balloon enthusiasts.  
+> Note that you must apply for the NOTAM at least 28 days before launch.
+
+You can view all the current NOTAM’s on a map at the [following website](http://notaminfo.com/ukmap).
+> Note that your Notam will not appear on this map until you have confirmed that the flight is going ahead. 
+
+The image below shows an example of a weather balloon Notam:
+
+![NOTAM example](/images/notam.png)
+
+Before applying for a Notam you will require:
+
+  * A launch site, with permission from the landowner
+  * The Latitude / Longitude / altitude of the launch site and the grid reference location
+  * URL Link to on online map of the launch site (google maps link)
+  * The dates you want to launch (you can specify a date window)
+  * The time of launch (11am is a good time to avoid incoming / outgoing transatlantic flights from London airports)
+  * The size and dimensions of the balloon you will be using (ground level)
+  * The weight of your payload
+  * The thickness and type of rope used on the payload
+
+### Choosing a Launch Site
+
+You should use the NOTAM map to get an initial idea of where to choose a safe launch site.
+
+You will also require some knowledge of UK airspace flight corridors and the location of active airfields as it is unlikely that a NOTAM launch application will be successful if it is in close proximity to an airfield or one of the main flight paths. There is an online map of UK flight corridors at [SkyVector](https://skyvector.com/) or you can follow the live tracks of airline flights at [Flight Radar 24](https://www.flightradar24.com/51.9,-2.08/7)
+
+### Application Procedure
+> Apply for a CAA Flight Exemption Certificate at least 28 days before the planned launch.
+
+Application for a NOTAM is made online at the [following website](http://publicapps.caa.co.uk/modalapplication.aspx?appid=11&mode=detail&id=4409 )
+
+Choose the lower link which opens an interactive Adobe Acrobat File. You then complete the form and press submit and you should almost immediately receive a reply to confirm receipt. However, my form would not submit from my Browser window, so I had to download the file, open in Acrobat and then submit the form directly from Acrobat.
+
+Once you have submitted your NOTAM application you will receive an email notification of successful submission.
+
+> Wait for the receipt of the Examption Certificate
+
+This will arrive be email and will state any limitations on the flight and the people to contact to generate a NOTAM and on the day of the launch.  For our launch this arrived 8 days before launch.
+
+> Choose the date and time of the launch (if you gave a launch window)
+
+Check the landing predictions and weather forecasts to choose which is the best day to launch your balloon.  Using the [CUSF landing predictor](http://predict.habhub.org/ ) we saw large changes in the prediction until it stabilised 3-4 days before launch.
+
+> Contact the CAA to generate a NOTAM at least 72 hours before launch
+
+Your exemption certificate will give details of who to contact in the CAA.  This must be done to generate a NOTAM, which will then be visible to pilots to plan their flightpath.  You can then check that the NOTAM is issued by visiting the [NotamInfo website](http://notaminfo.com/ukmap). 
+
+> Contact the local traffic control on the morning of the launch
+
+Details of the nearest air traffic control will be detailed on the Exemption certificate.
+
+> Contact local traffic control immediately before launch.
+
+You may be notified of an approaching aircraft and asked to briefly postpone the launch.
+
+> Contact the CAA if the flight launch is cancelled for any reason.
+
+Below is our NOTAM:
+![Our NOTAM](/images/notam_pdf.jpg)
+
+### USA Payload Testing Safety
+In the USA tests were undertaken to determine the risk of a balloon payload penetrating the fuselage of an aeroplane.  The conclusions were:
+
+  * Maximum payload weight must be 4 pounds (1.81 kg)
+  * Size to weight ratio must be less than 3 ounces/square inch (13 gram/sq.cm) (total payload weight divided by its smallest face)
+  * Total payload weight in the case of multiple payloads must be less than 12 pounds
+  * Rope from payload to balloon must require a force of less than 50 pounds to separate the payload from the balloon
+
+These rules do not apply to the UK but can be used as a guide and suggest the following:
+
+  * Use of 50lb braided line is suggested for connecting the balloon to the payload (the braiding stops the spinning of the payload during flight)
+  * Try and keep the payload weight as light as possible
+  * Spread out the heavy items within the payload to reduce the concentration of weight per area
