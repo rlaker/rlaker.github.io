@@ -73,7 +73,7 @@ We chose a [RPi camera](https://thepihut.com/collections/raspberry-pi-camera/pro
 
 For the video camera we chose a GoPro session which cost around £150.  This go pro comes in a sealed case, but we had to leave the case open so that we could connect an [Anker backup battery](https://www.amazon.co.uk/Anker-PowerCore-Aluminum-Portable-Lipstick-Sized-Black/dp/B005QI1A8C/ref=sr_1_13?ie=UTF8&qid=1520175075&sr=8-13&keywords=anker+power+bank). We decided to leave the glass cover on the camera lens in place for the flight. We had no problems with this on the ascent, but the central part of the glass fogged up on the descent, so next time we would probably remove the glass. 
 
-Note that we tried a [cheaper alternative]((https://www.amazon.co.uk/AKASO-EK7000-Waterproof-Rechargeable-Accessories/dp/B01HPXH29Q/ref=sr_1_1?s=electronics&ie=UTF8&qid=1520175208&sr=1-1&keywords=gopro+alternative) which cost half the price of the GoPro, but this failed to record continuous video when tested in our fridge, failing after only 30 minutes under cold conditions.
+Note that we tried a [cheaper alternative](https://www.amazon.co.uk/AKASO-EK7000-Waterproof-Rechargeable-Accessories/dp/B01HPXH29Q/ref=sr_1_1?s=electronics&ie=UTF8&qid=1520175208&sr=1-1&keywords=gopro+alternative) which cost half the price of the GoPro, but this failed to record continuous video when tested in our fridge, failing after only 30 minutes under cold conditions.
 
 <a name="payload"></a>
 ## Payload
