@@ -1,0 +1,104 @@
+<!-- I started with archive-single-cv and made it look like sbryangelson -->
+
+{% include base_path %}
+
+{% if post.header.teaser %}
+  {% capture teaser %}{{ post.header.teaser }}{% endcapture %}
+{% else %}
+  {% assign teaser = site.teaser %}
+{% endif %}
+
+<!-- in the cv is says for post in site.publications -->
+<!-- so this sets the title of the post and removes the paragraph tags -->
+{% if post.id %}
+  {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
+{% else %}
+  {% assign title = post.title %}
+{% endif %}
+
+<style>
+.btn{
+    margin-bottom:5px;
+    padding-top:0px;
+    padding-bottom:0px;
+    padding-left:15px;
+    padding-right:15px;
+    height:20px:
+}
+pre{
+    white-space: pre-wrap;  
+    white-space: -moz-pre-wrap; 
+    white-space: -pre-wrap; 
+    white-space: -o-pre-wrap; 
+    word-wrap: break-word; 
+    width:100%; overflow-x:auto;
+}
+</style>
+
+<!-- This makes the title -->
+<h3 class="archive__item-title" itemprop="headline">
+  {% if post.link %}
+    <a href="{{ post.link }}">{{ title }}</a> <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
+  {% else %}
+    <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
+  {% endif %}
+</h3>
+
+<!-- if there is a pdf then put the pdf button -->
+{% if post.paperurl %}
+<a href= post.paperurl target="_blank"><button class="btn btn-success btm-sm">PDF</button></a>
+{% endif %}
+
+<!-- if there is a doi then make a link -->
+{% if post.doi %}
+<!-- if type is unpublished then make an arxiv button -->
+{% if post.type == 'unpublished' %}
+<a href="{{ post.doi | prepend: 'https://arxiv.org/abs/' }}" target="_blank"><button class="btn btn-primary btm-sm">ARXIV</button></a>
+{% else %}
+<a href="{{ post.doi | prepend: 'http://doi.org/' }}" target="_blank"><button class="btn btn-primary btm-sm">DOI</button></a>
+{% endif %}
+{% endif %}
+
+<!-- make a bib button -->
+{% if post.bib %}
+<button class="btn btn-danger btm-sm"  onclick="toggleBibtex{{post.key}}()">BIB</button>
+{% endif %}
+
+{% if post.abstract %}
+<button class="btn btn-warning btm-sm"  onclick="toggleAbstract{{post.key}}()">ABSTRACT</button>
+{% endif %}
+
+{% if post.abstract %}
+<div id="a{{post.key}}" style="display: none; background-color:black; border-radius:5px; padding:10px; margin-bottom:20px;">
+<pre>{{ post.bibtex | remove: "post.abstract" }}</pre>
+</div>
+{% else %}
+<div id="a{{post.key}}" style="display: none; background-color:black; border-radius:5px; padding:10px; margin-bottom:20px;">
+<pre>{{ post.bibtex }}</pre>
+</div>
+{% endif %}
+
+<div id="b{{entry.key}}" style="display: none; background-color:black; border-radius:5px; padding:10px; margin-bottom:20px;">
+<pre>{{entry.abstract}}</pre>
+</div>
+
+<!-- getElementById gets the html element and changes it. This code makes the tag be called the bib key -->
+
+<script>
+function toggleBibtex{{post.key}}(parameter) {
+    var x= document.getElementById('a{{post.key}}');
+    if (x.style.display === 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+}
+function toggleAbstract{{post.key}}(parameter) {
+    var x= document.getElementById('b{{post.key}}');
+    if (x.style.display === 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+}
+</script>
