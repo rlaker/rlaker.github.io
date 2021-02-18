@@ -14,7 +14,7 @@ I am a PhD student at [Imperial College London](https://www.imperial.ac.uk/space
 
 ## Publications
   <ul>{% for post in site.publications %}
-    {% include archive-single-cv.html %}
+    {% include pub-home.html %}
   {% endfor %}</ul>
 
 ## Education
