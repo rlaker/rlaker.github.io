@@ -61,27 +61,20 @@ pre{
 
 <!-- make a bib button -->
 {% if post.bib %}
-<button class="btn btn-danger btm-sm"  onclick="toggleBibtex{{post.key}}()">BIB</button>
+<button class="btn btn-danger btm-sm"  onclick="toggleBibtex{{post.key}}()">CITE</button>
+<div id="b{{entry.key}}" style="display: none; background-color:black; border-radius:5px; padding:10px; margin-bottom:20px;">
+<pre>{{post.bib}}</pre>
+</div>
 {% endif %}
 
 <!-- make a abstract button -->
 {% if post.abstract %}
 <button class="btn btn-warning btm-sm"  onclick="toggleAbstract{{post.key}}()">ABSTRACT</button>
+<div id="a{{post.key}}" style="display: none; background-color:black; border-radius:5px; padding:10px; margin-bottom:20px;">
+<pre>{{ post.abstract }}</pre>
 {% endif %}
 
-{% if post.abstract %}
-<div id="a{{post.key}}" style="display: none; background-color:black; border-radius:5px; padding:10px; margin-bottom:20px;">
-<pre>{{ post.bibtex | remove: "post.abstract" }}</pre>
-</div>
-{% else %}
-<div id="a{{post.key}}" style="display: none; background-color:black; border-radius:5px; padding:10px; margin-bottom:20px;">
-<pre>{{ post.bibtex }}</pre>
-</div>
-{% endif %}
 
-<div id="b{{entry.key}}" style="display: none; background-color:black; border-radius:5px; padding:10px; margin-bottom:20px;">
-<pre>{{entry.abstract}}</pre>
-</div>
 
 <!-- getElementById gets the html element and changes it. This code makes the tag be called the bib key -->
 
