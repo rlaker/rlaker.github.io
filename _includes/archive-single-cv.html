@@ -1,3 +1,5 @@
+<!-- This file is injected into the cv/home page and basically just adds html there -->
+
 {% include base_path %}
 
 {% if post.header.teaser %}
@@ -6,12 +8,15 @@
   {% assign teaser = site.teaser %}
 {% endif %}
 
+<!-- in the cv is says for post in site.publications -->
+<!-- so this sets the title of the post and removes the paragraph tags -->
 {% if post.id %}
   {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
 {% else %}
   {% assign title = post.title %}
 {% endif %}
 
+<!-- {{}} are liquid injections -->
 <div class="{{ include.type | default: "list" }}__item">
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
     <li>
@@ -26,6 +31,8 @@
           alt="">
       </div>
     {% endif %}
+    <!-- h3 tag is heading 3 -->
+    <!-- This makes the title the post.title and links to the post -->
     <h3 class="archive__item-title" itemprop="headline">
       {% if post.link %}
         <a href="{{ post.link }}">{{ title }}</a> <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
@@ -36,6 +43,8 @@
     {% if post.read_time %}
       <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
     {% endif %}
+    <!-- in each publication the venue is the journal -->
+    <!-- so this adds a paragraph with post.citation which is defined in each post -->
     {% if post.venue%}<p class="archive__item-excerpt" itemprop="description">{{ post.citation }}</p> {% endif %}
     </li>
  </article>
