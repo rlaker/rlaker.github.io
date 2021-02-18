@@ -72,6 +72,7 @@ pre{
 <button class="btn btn-warning btm-sm"  onclick="toggleAbstract{{post.key}}()">ABSTRACT</button>
 <div id="a{{post.key}}" style="display: none; background-color:black; border-radius:5px; padding:10px; margin-bottom:20px;">
 <pre>{{ post.abstract }}</pre>
+</div>
 {% endif %}
 
 
@@ -80,7 +81,7 @@ pre{
 
 <script>
 function toggleBibtex{{post.key}}(parameter) {
-    var x= document.getElementById('a{{post.key}}');
+    var x= document.getElementById('b{{post.key}}');
     if (x.style.display === 'none') {
         x.style.display = 'block';
     } else {
@@ -88,7 +89,7 @@ function toggleBibtex{{post.key}}(parameter) {
     }
 }
 function toggleAbstract{{post.key}}(parameter) {
-    var x= document.getElementById('b{{post.key}}');
+    var x= document.getElementById('a{{post.key}}');
     if (x.style.display === 'none') {
         x.style.display = 'block';
     } else {
