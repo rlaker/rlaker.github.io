@@ -2,6 +2,8 @@
 permalink: /hab/
 title: "High Altitude Balloon"
 author_profile: true
+redirect_from:
+  - /HAB/
 ---
 
 ![HAB picture of Earth](/images/hab_overview.png)
