@@ -13,7 +13,9 @@ I am a PhD student at [Imperial College London](https://www.imperial.ac.uk/space
 > Supported by an Imperial College President's scholarship.
 
 ## Publications
-Put in publications like in the CV
+  <ul>{% for post in site.publications %}
+    {% include archive-single-cv.html %}
+  {% endfor %}</ul>
 
 ## Education
   * Imperial College London (2019- )
