@@ -62,15 +62,15 @@ pre{
 <!-- make a bib button -->
 {% if post.bib %}
 <button class="btn btn-danger btm-sm"  onclick="toggleBibtex{{post.key}}()">CITE</button>
-<div id="b{{entry.key}}" style="display: none; background-color:black; border-radius:5px; padding:10px; margin-bottom:20px;">
-<pre>{{post.bib}}</pre>
+<div id="b{{post.key}}" style="display: none; background-color:white; border-radius:5px; padding:10px; margin-bottom:20px;">
+<pre>{{ post.bib }}</pre>
 </div>
 {% endif %}
 
 <!-- make a abstract button -->
 {% if post.abstract %}
 <button class="btn btn-warning btm-sm"  onclick="toggleAbstract{{post.key}}()">ABSTRACT</button>
-<div id="a{{post.key}}" style="display: none; background-color:black; border-radius:5px; padding:10px; margin-bottom:20px;">
+<div id="a{{post.key}}" style="display: none; background-color:white; border-radius:5px; padding:10px; margin-bottom:20px;">
 <pre>{{ post.abstract }}</pre>
 </div>
 {% endif %}
