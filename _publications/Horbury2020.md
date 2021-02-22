@@ -26,7 +26,7 @@ title = {{Sharp Alfvenic Impulses in the Near-Sun Solar Wind}},
 volume = {246},
 
 year = {2020}
-key: 'Horbury2020'
 }'
+key: 'Horbury2020'
 ---
 
