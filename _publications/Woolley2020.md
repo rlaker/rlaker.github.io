@@ -2,9 +2,9 @@
 title: "Proton core behaviour inside magnetic field switchbacks"
 collection: publications
 permalink: /publication/Woolley2020
-date: 2009-10-01
+date: 2009-10-03
 venue: 'MNRAS'
-authors: 'Woolley, Thomas; Matteini, Lorenzo; Horbury, Timothy S; Bale, Stuart D, Woodham, Lloyd D, <b>Laker, Ronan</b>;, Alterman, Benjamin L, Bonnell, John W, Case, Anthony W, Kasper, Justin C, Klein, Kristopher G, Martinovic, Mihailo M, Stevens, Michael'
+authors: 'Woolley, Thomas; Matteini, Lorenzo; Horbury, Timothy S; Bale, Stuart D; Woodham, Lloyd D; <b>Laker, Ronan</b>; Alterman, Benjamin L; Bonnell, John W; Case, Anthony W; Kasper, Justin C; Klein, Kristopher G; Martinovic, Mihailo M; Stevens, Michael'
 doi: '10.1038/s41586-019-1818-7'
 type: 'published'
 bib: '@Woolley2020,

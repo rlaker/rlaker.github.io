@@ -2,7 +2,7 @@
 title: "Enhanced proton parallel temperature inside patches of switchbacks in the inner heliosphere"
 collection: publications
 permalink: /publication/Woodham2021
-date: 2009-10-01
+date: 2009-10-04
 venue: 'Astronomy & Astrophysics'
 authors: 'Woodham, L; Horbury, T; Matteini, L; Woolley, T; <b>Laker, R</b>; Bale, S; Nicolaou, G; Stawarz, J; Stansby, D; Hietala, H; Larson, D; Livi, R; Verniero, J; McManus, M; Kasper, J; Korreck, K; Raouafi, N; Moncuquet, M; Pulupa, M'
 doi: '10.1051/0004-6361/202039415'
