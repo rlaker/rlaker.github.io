@@ -2,11 +2,7 @@
 
 {% include base_path %}
 
-{% if post.header.teaser %}
-  {% capture teaser %}{{ post.header.teaser }}{% endcapture %}
-{% else %}
-  {% assign teaser = site.teaser %}
-{% endif %}
+
 
 <!-- in the cv is says for post in site.publications -->
 <!-- so this sets the title of the post and removes the paragraph tags -->
