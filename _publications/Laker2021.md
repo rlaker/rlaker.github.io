@@ -3,6 +3,7 @@ title: "Statistical analysis of orientation, shape, and size of solar wind switc
 collection: publications
 permalink: /publication/Laker2021
 date: 2009-10-05
+paperurl: /files/Laker2021.pdf
 venue: 'Astronomy & Astrophysics'
 authors: '<b>Laker, R.</b>; Horbury, T. S.; Bale, S. D.; Matteini, L.; Woolley, T.; Woodham, L. D.; Badman, S. T.; Pulupa, M.; Kasper, J. C.; Stevens, M.; Case, A. W.; Korreck, K. E.'
 doi: '10.1051/0004-6361/202039354'
