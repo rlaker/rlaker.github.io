@@ -23,7 +23,7 @@ pages = {45},
 
 publisher = {American Astronomical Society},
 
-title = {{Sharp Alfv{\'{e}}nic Impulses in the Near-Sun Solar Wind}},
+title = {{Sharp Alfvenic Impulses in the Near-Sun Solar Wind}},
 
 volume = {246},
 
