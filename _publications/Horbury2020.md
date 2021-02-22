@@ -1,5 +1,5 @@
 ---
-title: "Sharp Alfv&eacute;nic Impulses in the Near-Sun Solar Wind"
+title: "Sharp Alfvenic Impulses in the Near-Sun Solar Wind"
 collection: publications
 permalink: /publication/Horbury2020
 date: 2009-10-01
@@ -25,8 +25,6 @@ publisher = {American Astronomical Society},
 
 title = {{Sharp Alfv{\'{e}}nic Impulses in the Near-Sun Solar Wind}},
 
-url = {https://doi.org/10.3847/1538-4365/ab5b15},
-
 volume = {246},
 
 year = {2020}
@@ -35,3 +33,4 @@ year = {2020}
 key: 'Horbury2020'
 home: true
 ---
+
