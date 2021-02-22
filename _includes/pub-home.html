@@ -65,6 +65,8 @@ pre{
   {% endif %}
 </h3>
 
+<p>{{post.authors}}</p>
+
 <!-- if there is a pdf then put the pdf button -->
 {% if post.paperurl %}
 <a href= "{{ post.paperurl}}" target="_blank"><button class="button buttonpdf">PDF</button></a>
