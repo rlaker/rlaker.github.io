@@ -21,7 +21,6 @@
     padding-bottom:0px;
     padding-left:15px;
     padding-right:15px;
-    height: 12px:
 }
 pre{
     white-space: pre-wrap;  
@@ -106,9 +105,9 @@ pre{
 function toggleBibtex{{post.key}}(parameter) {
     var x= document.getElementById('b{{post.key}}');
     var y= document.getElementById('a{{post.key}}');
-    if (x.style.display === 'none') && (y.style.display === 'none') {
+    if ((x.style.display === 'none') && (y.style.display === 'none')) {
         x.style.display = 'block';
-    } else if (x.style.display === 'none') && (y.style.display === 'block') {
+    } else if ((x.style.display === 'none') && (y.style.display === 'block')) {
         y.style.display = 'none';
         x.style.display = 'block';
     } else {
