@@ -34,23 +34,43 @@ pre{
   
 .buttonpdf {
   background-color: white; 
-  color: #f44336; 
-  border: 2px solid #f44336;
+  color: #a81b1b; 
+  border: 2px solid #a81b1b;
 }
 
 .buttonpdf:hover {
-  background-color: #f44336;
+  background-color: #a81b1b;
   color: white;
 }
   
 .buttondoi {
   background-color: white; 
-  color: black; 
-  border: 2px solid black;
+  color: #1b93a8; 
+  border: 2px solid #1b93a8;
 }
 
 .buttondoi:hover {
-  background-color: black;
+  background-color: #1b93a8;
+  color: white;
+}
+.buttoncite {
+  background-color: white; 
+  color: #420e73; 
+  border: 2px solid #420e73;
+}
+
+.buttoncite:hover {
+  background-color: #420e73;
+  color: white;
+}
+.buttonab {
+  background-color: white; 
+  color: #eb8d00; 
+  border: 2px solid #eb8d00;
+}
+
+.buttonab:hover {
+  background-color: #eb8d00;
   color: white;
 }
 </style>
@@ -77,12 +97,12 @@ pre{
 
 <!-- make a bib button -->
 {% if post.bib %}
-<button class="button buttondoi"  onclick="toggleBibtex{{post.key}}()">CITE</button>
+<button class="button buttoncite"  onclick="toggleBibtex{{post.key}}()">CITE</button>
 {% endif %}
 
 <!-- make a abstract button -->
 {% if post.abstract %}
-<button class="button buttondoi"  onclick="toggleAbstract{{post.key}}()">ABSTRACT</button>
+<button class="button buttonab"  onclick="toggleAbstract{{post.key}}()">ABSTRACT</button>
 {% endif %}
 
 <!-- make the boxes after the buttons so it doesnt move the buttons -->
