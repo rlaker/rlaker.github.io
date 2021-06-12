@@ -13,7 +13,7 @@ title: "Animations"
 }
 </style>
 
-<img src="/files/psp_corotation.gif" alt="Parker Solar Probe Corotation" class="center">
+<img src="/files/psp_corotation_anti.gif" alt="Parker Solar Probe Corotation" class="center">
 
 Inspired by [@matthen2](https://twitter.com/matthen/), and adapting his mathematica [code](https://pastebin.com/McQ5qwXr) to show why Parker Solar Probe's orbit exhibits a loop when viewed in a frame corotating with the Sun's surface. Code can be seen on [github](https://github.com/rlaker/animations/).
 
