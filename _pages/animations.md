@@ -1,5 +1,5 @@
 ---
-permalink: /msci/
+permalink: /animations/
 title: "Parker Solar Probe: Connecting Spacecraft Observations to the Sun’s Surface"
 ---
 #Animations
