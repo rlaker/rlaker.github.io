@@ -1,9 +1,7 @@
 ---
 permalink: /animations/
-title: "Parker Solar Probe: Connecting Spacecraft Observations to the Sun’s Surface"
+title: "Animations"
 ---
-#Animations
-Collection of animations I have made.
 
 ## Parker Solar Probe Corotation
 ![Parker Solar Probe Corotation](files/psp_corotation.gif)
