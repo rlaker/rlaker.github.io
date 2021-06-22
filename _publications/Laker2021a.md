@@ -3,7 +3,7 @@ title: "Multi-spacecraft Study of the Solar Wind at Solar Minimum: Dependence on
   Latitude and Transient Outflows"
 collection: publications
 permalink: /publication/Laker2021a
-date: 2009-10-05
+date: 2009-10-06
 paperurl: /files/Laker2021a.pdf
 venue: 'Astronomy & Astrophysics'
 authors: '<b>Laker, R.</b>; Horbury, T. S.; Bale, S. D.; Matteini, L.; Woolley, T.; L. D. Woodham; Stawarz, J. E.; Davies, E. E.; Eastwood, J. P.; Owens, M. J.; OBrien, H.; Evans, V.; Angelini, V.; Richter, I.; Heyner, D.; Owen, C. J.; Louarn, P.; Federov A.' 
