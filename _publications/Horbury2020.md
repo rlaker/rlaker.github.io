@@ -29,6 +29,6 @@ year = {2020}
 }'
 key: 'Horbury2020'
 abstract: 'Measurements of the near-Sun solar wind by the Parker Solar Probe have revealed the presence of large numbers of discrete Alfvenic impulses with an anti-sunward sense of propagation. These are similar to those previously observed near 1 au, in high speed streams over the Suns poles and at 60 solar radii. At 35 solar radii, however, they are typically shorter and sharper than seen elsewhere. In addition, these spikes occur in patches and there are also clear periods within the same stream when they do not occur; the timescale of these patches might be related to the rate at which the spacecraft magnetic footpoint tracks across the coronal hole from which the plasma originated. While the velocity fluctuations associated with these spikes are typically under 100 km s−1, due to the rather low Alfven speeds in the streams observed by the spacecraft to date, these are still associated with large angular deflections of the magnetic field—and these deflections are not isotropic. These deflections do not appear to be related to the recently reported large-scale, pro-rotation solar wind flow. Estimates of the size and shape of the spikes reveal high aspect ratio flow-aligned structures with a transverse scale of 10000 km. These events might be signatures of near-Sun impulsive reconnection events.'
-home: true
+home: false
 ---
 
