@@ -13,6 +13,15 @@ title: "Animations"
 }
 </style>
 
+## What is my PhD about?
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/rI2yBMnZMpU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+I made this video for the Faculty of Natural Science [Showcase](https://www.imperial.ac.uk/events/136545/fons-research-showcase-2021-day-two-departments-of-physics-mathematics-and-the-centre-for-environmental-policy/), to describe my PhD in 3 minutes (ish). I made this animation with [ManimCE](https://docs.manim.community/en/stable/) and I the code can be found on [github](https://github.com/rlaker/animations/tree/main/Spaceweather%20video).
+
+
+# Parker Solar Probe Co-rotation
+
 <img src="/files/psp_corotation_anti.gif" alt="Parker Solar Probe Corotation" class="center">
 
 Inspired by [@matthen2](https://twitter.com/matthen/), and adapting his mathematica [code](https://pastebin.com/McQ5qwXr) to show why Parker Solar Probe's orbit exhibits a loop when viewed in a frame corotating with the Sun's surface. Code can be seen on [github](https://github.com/rlaker/animations/).

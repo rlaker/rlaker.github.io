@@ -3,11 +3,13 @@ main:
   - title: "Publications"
     url: /publications/
 
+  - title: "Animations"
+    url: /animations/   
+
   - title: "MSci"
     url: /msci/    
 
-  - title: "HAB"
+  - title: "High Altitude Balloon"
     url: /hab/    
     
-  - title: "Animations"
-    url: /animations/    
+ 
