@@ -3,7 +3,6 @@ permalink: /animations/
 title: "Animations"
 ---
 
-## Parker Solar Probe Corotation
 <style>
 .center {
   display: block;
@@ -19,6 +18,7 @@ title: "Animations"
 
 I made this video for the Faculty of Natural Science [Showcase](https://www.imperial.ac.uk/events/136545/fons-research-showcase-2021-day-two-departments-of-physics-mathematics-and-the-centre-for-environmental-policy/), to describe my PhD in 3 minutes (ish). I made this animation with [ManimCE](https://docs.manim.community/en/stable/) and I the code can be found on [github](https://github.com/rlaker/animations/tree/main/Spaceweather%20video).
 
+This touches on space weather and how the Sun can influence life on Earth. I also explain the Sun's magnetic field and the concept of the Parker spiral, while introducing the 5 spacecraft that is use including Parker Solar Probe and Solar Orbiter.
 
 # Parker Solar Probe Co-rotation
 
