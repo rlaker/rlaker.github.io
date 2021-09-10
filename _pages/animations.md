@@ -22,7 +22,8 @@ This touches on space weather and how the Sun can influence life on Earth. I als
 
 I also created this [poster](/files/oceans_poster.pdf) to explain my second first-authored [paper](/files/Laker2021a.pdf).
 
-<embed src="/files/oceans_poster.pdf" width="560" height="720" />
+<embed src="/files/oceans_poster.pdf" width="560" height="750" />
+
 
 # Parker Solar Probe Co-rotation
 
