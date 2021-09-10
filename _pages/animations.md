@@ -20,6 +20,10 @@ I made this video for the Faculty of Natural Science [Showcase](https://www.impe
 
 This touches on space weather and how the Sun can influence life on Earth. I also explain the Sun's magnetic field and the concept of the Parker spiral, while introducing the 5 spacecraft that is use including Parker Solar Probe and Solar Orbiter.
 
+I also created this [poster](/files/oceans_poster.pdf) to explain my second first-authored [paper](/files/Laker2021a.pdf).
+
+<embed src="oceans_poster.pdf" width="560" height="1120" />
+
 # Parker Solar Probe Co-rotation
 
 <img src="/files/psp_corotation_anti.gif" alt="Parker Solar Probe Corotation" class="center">
