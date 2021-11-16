@@ -15,6 +15,7 @@ I am a PhD student at [Imperial College London](https://www.imperial.ac.uk/space
 <iframe width="560" height="315" src="https://www.youtube.com/embed/rI2yBMnZMpU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Publications
+
 <p>
 {% for post in site.publications reversed %}
   {% if post.home == true %}
@@ -24,21 +25,22 @@ I am a PhD student at [Imperial College London](https://www.imperial.ac.uk/space
 </p>
 
 ## Education
-  * Imperial College London (2019- )
-    * PhD in Space Plasma Physics 
 
-  * Imperial College London (2015-2019)
-    *  MSci in Physics
-    *  Graduated top of the MSci cohort (1st out of 149 students)  
+* Imperial College London (2019- )
+  * PhD in Space Plasma Physics
 
-  * Balcarras School (2008-2015)
-    * A-level: Physics (A\*), Mathematics (A\*), Further Mathematics (A\*)
-    * GCSE: 11 A\*
+* Imperial College London (2015-2019)
+  * MSci in Physics
+  * Graduated top of the MSci cohort (1st out of 149 students)  
+
+* Balcarras School (2008-2015)
+  * A-level: Physics (A\*), Mathematics (A\*), Further Mathematics (A\*)
+  * GCSE: 11 A\*
 
 ## Awards
-  * Abdus Salam UG Prize for the best MSci graduate in the Physics Department 
-  * Governors’ MSci Prize for the best MSci student in Physics at the final examinations
-  * Ludlam Prize for excellence in Atmospheric physics 
-  * TTP UG Prize for Academic Excellence in Physics for the 2017-2018 academic year 
-  * Winton Capital Prize for outstanding performance in second year physics for the 2016-2017 academic year
 
+* Abdus Salam UG Prize for the best MSci graduate in the Physics Department
+* Governors’ MSci Prize for the best MSci student in Physics at the final examinations
+* Ludlam Prize for excellence in Atmospheric physics
+* TTP UG Prize for Academic Excellence in Physics for the 2017-2018 academic year
+* Winton Capital Prize for outstanding performance in second year physics for the 2016-2017 academic year
