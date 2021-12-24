@@ -5,10 +5,4 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% include base_path %}
-
-<p>
-{% for post in site.publications reversed %}
-  {% include pub-home.html %}
-{% endfor %}
-</p>
+Full list at [Google Scholar]("https://scholar.google.com/citations?user=59iEPNwAAAAJ") <i class="fas fa-graduation-cap"></i>.
