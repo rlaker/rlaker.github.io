@@ -6,7 +6,7 @@ redirect_from:
   - /HAB/
 ---
 
-![HAB picture of Earth](/images/hab_overview.jpg)
+![HAB picture of Earth](/images/HAB/hab_overview.jpg)
 
 I built and launched a High Altitude Balloon (HAB) over a period of 3 months in the summer of 2017. We (my Dad and I) followed a few blogs and took inspiration from [Dave Akerman](http://www.daveakerman.com/?p=1732) and [Stratodean](http://www.stratodean.co.uk/) who provide excellent guides. You can read a short [report of our findings](/files/hab_report.pdf) and follow the guide [below](#guide). Our flight was picked up by [caters news](http://www.storytrender.com/31497/students-weather-balloon-soars-35000m-survives-temperatures-50c/).
 
@@ -35,17 +35,17 @@ A good way to start with this project is to track other people's balloons. Most 
 
 The first thing to get is a radio and a basic antenna (see later), the easiest and cheapest way to do this is to be a software defined radio (SDR). This plugs straight into the USB port on your laptop/computer, and uses software to do most of the work. The recommended software is [SDR#](https://airspy.com/download/), and we used the [R820T2 RTL-SDR](https://www.rtl-sdr.com/buy-rtl-sdr-dvb-t-dongles/) which is a pretty good model. The driver will need to be changed for the SDR, using Zadig. When the right driver is installed you should see a signal like this when you open SDR# (this is when the tracker is turned on).
 
-![Example of using SDR#](/images/radio1.jpg)
+![Example of using SDR#](/images/HAB/radio1.jpg)
 
 You can test the SDR setup by listening into the radio stations using the WFM mode. A very important piece of equipment is the amplifier, it is very difficult to get a good signal without one as I found out. When you buy an amplifier make sure it applies to the HAM band like this [one](https://store.uputronics.com/index.php?route=product/product&path=59&product_id=53), around 434MHz as mentioned before. Now the SDR works you will need to decode the information from the balloons, this is done with a modified version of dl-fldigi, a guide can be found here. However, this did not mention how to get the signal from SDR# to dl-fldigi. For this, you need to use [VB-Cable](https://vb-audio.com/Cable/index.htm) which is a virtual cable that can connect two programs. In SDR# change the audio output to 'MME SDR (VB audio virtual cable) in the first picture below. In dl-fldigi go to Configure -> Sound card and change capture to 'Cable Output (VB-Cable audio virtual cable)', you also need to change the settings in the operator section, this information will appear on the [live map](https://tracker.habhub.org/).
 
-![sdr vb cable](/images/vbcable_sdr.png)
+![sdr vb cable](/images/HAB/vbcable_sdr.png)
 
-![vb cable](/images/dl_vbcable.png)
+![vb cable](/images/HAB/dl_vbcable.png)
 
 After reading which antenna would suit you best in the [next section](#antenna), you can now start to track of peoples balloons. Using the link the live map you can see when there is a balloon in the air, with the green circle showing you when the signal will be strong enough for a decent signal. Balloons that are launched should have submitted a payload document, which means that you can select the flight from the flight list in dl-fldigi, which will automatically assign the correct settings. However, if you are testing your own payload or want to make adjustments go to OP mode -> RTTY -> Custom. Once a signal has been found it should look similar to the picture below (my first successful ballon track):
 
-![Example of successful tracking](/images/barc_tracking.png)
+![Example of successful tracking](/images/HAB/barc_tracking.png)
 
 The green banner shows that a good lock has been achieved, this string will then be uploaded to the live map.
 
@@ -54,7 +54,7 @@ The green banner shows that a good lock has been achieved, this string will then
 
 To start with I just used a simple magnetic whip antenna that would stick to the roof of a car. This is useful for when you just want to test if the SDR works, or to test your payload (which happened a lot). However, in order to track other balloons all around the country, it is worth investing in a Yagi antenna. At the start of the project, I was very optimistic about my antenna making skills so I made several basic antennas. I made a large collinear antenna by following a [tutorial](http://www.rason.org/Projects/collant/collant.htm), which is basically 4 sections of coaxial cable soldered together to create a standing wave that would amplify the signal. I also made a very basic Yagi antenna as seen below out of thin copper wire and an old paint brush for a handle. This did pick up signals but was nowhere near as good as a proper Yagi.
 
-![Homemade antenna](/images/antenna.jpg)
+![Homemade antenna](/images/HAB/antenna.jpg)
 
 In the end we opted to buy the [Diamond A430S10R 70cm 10 Element Yagi](https://www.diamondantenna.net/a430s10.html) which worked really well and enabled us to track a balloon from Sheffield (~100 miles away). 
 
@@ -149,7 +149,7 @@ We followed the design shown on the [following website](https://ukhas.org.uk/gui
 
 We managed to connect this to a balloon filling nozzle on the helium cylinder using a jubilee clip and some duct tape. 
 
-![Balloon Filling Nozzle](/images/nozzle.jpg)
+![Balloon Filling Nozzle](/images/HAB/nozzle.jpg)
 
 <a name="notam"></a>
 ## NOTAM
@@ -162,7 +162,7 @@ You can view all the current NOTAM’s on a map at the [following website](http:
 
 The image below shows an example of a weather balloon Notam:
 
-![NOTAM example](/images/notam.png)
+![NOTAM example](/images/HAB/notam.png)
 
 Before applying for a Notam you will require:
 
@@ -213,7 +213,7 @@ You may be notified of an approaching aircraft and asked to briefly postpone the
 > Contact the CAA if the flight launch is cancelled for any reason.
 
 Below is our NOTAM:
-![Our NOTAM](/images/notam_pdf.jpg)
+![Our NOTAM](/images/HAB/notam_pdf.jpg)
 
 ### USA Payload Testing Safety
 In the USA tests were undertaken to determine the risk of a balloon payload penetrating the fuselage of an aeroplane.  The conclusions were:
