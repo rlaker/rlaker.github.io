@@ -130,11 +130,11 @@ author:
       icon: "fab fa-linkedin-in"
       url: "https://www.linkedin.com/in/ronan-laker-88b373101/"
     - label: ORCID
-      - icon: "fab fa-orcid"
-      - url: "https://orcid.org/0000-0002-6577-5515"
+      icon: "fab fa-orcid"
+      url: "https://orcid.org/0000-0002-6577-5515"
     - label: "Google Scholar"
-      -icon: "fas fa-graduation-cap"
-      -url: "https://scholar.google.com/citations?user=59iEPNwAAAAJ"
+      icon: "fas fa-graduation-cap"
+      url: "https://scholar.google.com/citations?user=59iEPNwAAAAJ"
 
 # Site Footer
 footer:
