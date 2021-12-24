@@ -10,7 +10,7 @@ redirect_from:
 
 I am a PhD student at [Imperial College London](https://www.imperial.ac.uk/space-and-atmospheric-physics) studying the solar wind in the inner heliosphere with the new Parker Solar Probe and Solar Orbiter missions. Interested in using multiple spacecraft to measure the 3D shape of large scale structures in the solar wind, particularly the heliospheric current sheet and stream interaction regions.
 
-List of publications can be found on [Google Scholar]("https://scholar.google.com/citations?user=59iEPNwAAAAJ") <i class="fas fa-graduation-cap"></i>
+View my <a href="/publications/">publications</a> or see a full list at [Google Scholar]("https://scholar.google.com/citations?user=59iEPNwAAAAJ") <i class="fas fa-graduation-cap"></i>
 
 > Supported by an Imperial College President's scholarship.
 
@@ -33,8 +33,8 @@ List of publications can be found on [Google Scholar]("https://scholar.google.co
 
 ## Awards
 
-* Abdus Salam UG Prize for the best MSci graduate in the Physics Department
-* Governors’ MSci Prize for the best MSci student in Physics at the final examinations
-* Ludlam Prize for excellence in Atmospheric physics
-* TTP UG Prize for Academic Excellence in Physics for the 2017-2018 academic year
-* Winton Capital Prize for outstanding performance in second year physics for the 2016-2017 academic year
+* **Abdus Salam UG Prize** for the best MSci graduate in the Physics Department
+* **Governors’ MSci Prize** for the best MSci student in Physics at the final examinations
+* **Ludlam Prize** for excellence in Atmospheric physics
+* **TTP UG Prize** for Academic Excellence in Physics for the 2017-2018 academic year
+* **Winton Capital Prize** for outstanding performance in second year physics for the 2016-2017 academic year
