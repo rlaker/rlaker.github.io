@@ -2,9 +2,12 @@
 title: "Photography"
 permalink: "/photos/"
 author_profile: false
+layout: splash
+header:
+    overlay_image: "/images/photos/header.jpg"
 galleryfilm:
     - url: "/images/photos/test-1.jpg"
-    - image_path: "/images/photos/test-1.jpg"
+    - image_path: "//images.weserv.nl/?url={{ site.url | replace: 'http://','' | replace: 'https://','' }}{{ "/images/photos/test-1.jpg" | relative_url }}&w=300&h=300&output=jpg&q=50&t=square"
     - alt: "Test 1"
     - title: "Test 1 title"
     - url: "/images/photos/test-2.jpg"
