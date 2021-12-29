@@ -22,4 +22,4 @@ galleryfilm:
 
 ## Film Photography
 
-{% include gallery id="galleryfilm" caption="Test caption" %}
+{% include gallery id="galleryfilm" layout = "third" %}
