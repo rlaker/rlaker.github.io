@@ -15,7 +15,6 @@ galleryfilm:
     - url: "/images/photos/film/_0008.jpg"
       image_path: "/images/photos/film/_0008.jpg"
       alt: "Houses near Queen's Park, London (Kodak Ultramax 400)"
-
     - url: "/images/photos/film/_0007.jpg"
       image_path: "/images/photos/film/_0007.jpg"
       alt: "Tower Bridge, London (Kodak Ultramax 400)"
@@ -25,7 +24,6 @@ galleryfilm:
     - url: "/images/photos/film/_0004.jpg"
       image_path: "/images/photos/film/_0004.jpg"
       alt: "Victoria Palace Theatre, London (Kodak Ultramax 400)"
-
     - url: "/images/photos/film/_0006.jpg"
       image_path: "/images/photos/film/_0006.jpg"
       alt: "The Shard, London (Kodak Ultramax 400)"
@@ -35,7 +33,6 @@ galleryfilm:
     - url: "/images/photos/film/_0002.jpg"
       image_path: "/images/photos/film/_0002.jpg"
       alt: "Jane Austen's house (Ilford FP4)"
-
     - url: "/images/photos/film/_0005.jpg"
       image_path: "/images/photos/film/_0005.jpg"
       alt: "Shopfront, London (Kodak Ultramax 400)"
