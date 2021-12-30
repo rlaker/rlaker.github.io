@@ -53,7 +53,7 @@ galleryfilm:
     - url: /images/photos/film/0003.jpg
       image_path: /images/photos/film/0003.jpg
       alt: "Cliche wingmirror shot (Ilford HP5+)"
-   titlealt: "Cliche wingmirror shot (Ilford HP5+)"
+      title: "Cliche wingmirror shot (Ilford HP5+)"
 ---
 
 ## Film Photography
