@@ -54,6 +54,79 @@ galleryfilm:
       image_path: /images/photos/film/0003.jpg
       alt: "Cliche wingmirror shot (Ilford HP5+)"
       title: "Cliche wingmirror shot (Ilford HP5+)"
+  gallerynature:
+    - url: /images/photos/nature/_0001.jpg
+      image_path: /images/photos/nature/_0001.jpg
+      alt: "Pheasant in the garden"
+      title: "Pheasant in the garden"
+    - url: /images/photos/nature/_0002.jpg
+      image_path: /images/photos/nature/_0002.jpg
+      alt: "House Sparrow on gutter"
+      title: "House Sparrow on gutter"
+    - url: /images/photos/nature/_0003.jpg
+      image_path: /images/photos/nature/_0003.jpg
+      alt: "Posing horse"
+      title: "Posing horse"
+    - url: /images/photos/nature/_0004.jpg
+      image_path: /images/photos/nature/_0004.jpg
+      alt: "Sleeping lamb"
+      title: "Sleeping lamb"
+    - url: /images/photos/nature/_0005.jpg
+      image_path: /images/photos/nature/_0005.jpg
+      alt: "Robin on the fence"
+      title: "Robin on the fence"
+    - url: /images/photos/nature/_0006.jpg
+      image_path: /images/photos/nature/_0006.jpg
+      alt: "Kestrel in Richmond Park"
+      title: "Kestrel in Richmond Park"
+    - url: /images/photos/nature/_0007.jpg
+      image_path: /images/photos/nature/_0007.jpg
+      alt: "Sheep in meadow"
+      title: "Sheep in meadow"
+    - url: /images/photos/nature/_0008.jpg
+      image_path: /images/photos/nature/_0008.jpg
+      alt: "Wheat field"
+      title: "Wheat field"
+    - url: /images/photos/nature/_0009.jpg
+      image_path: /images/photos/nature/_0009.jpg
+      alt: "Crow"
+      title: "Crow"
+    - url: /images/photos/nature/_0010.jpg
+      image_path: /images/photos/nature/_0010.jpg
+      alt: "Blossom"
+      title: "Blossom"
+    - url: /images/photos/nature/_0011.jpg
+      image_path: /images/photos/nature/_0011.jpg
+      alt: "Cow"
+      title: "Cow"
+    - url: /images/photos/nature/_0012.jpg
+      image_path: /images/photos/nature/_0012.jpg
+      alt: "Alpaca"
+      title: "Alpaca"
+    - url: /images/photos/nature/_0013.jpg
+      image_path: /images/photos/nature/_0013.jpg
+      alt: "Cow with pastel skies"
+      title: "Cow with pastel skies"
+    - url: /images/photos/nature/_0014.jpg
+      image_path: /images/photos/nature/_0014.jpg
+      alt: "Dragonfly"
+      title: "Dragonfly"
+    - url: /images/photos/nature/_0015.jpg
+      image_path: /images/photos/nature/_0015.jpg
+      alt: "Autumn in Queen's park"
+      title: "Autumn in Queen's park"
+    - url: /images/photos/nature/_0016.jpg
+      image_path: /images/photos/nature/_0016.jpg
+      alt: "Squirrel in Autumn"
+      title: "Squirrel in Autumn"
+    - url: /images/photos/nature/_0017.jpg
+      image_path: /images/photos/nature/_0017.jpg
+      alt: "Swan in Round pond"
+      title: "Swan in Round pond"
+    - url: /images/photos/nature/_0018.jpg
+      image_path: /images/photos/nature/_0018.jpg
+      alt: "Swooping Kestrel"
+      title: "Swooping Kestrel"
 ---
 
 ## Film Photography
@@ -62,6 +135,6 @@ After being generously loaned a Pentax P30 I have starting trying film photograp
 
 {% include gallery id="galleryfilm" layout = "third" %}
 
-<!-- ## Nature -->
+## Nature
 
-<!-- {% include gallery id="gallerynature" layout = "third" %} -->
+{% include gallery id="gallerynature" layout = "third" %}
