@@ -58,7 +58,7 @@ gallerynature:
   - url: /images/photos/nature/0001.jpg
     image_path: /images/photos/nature/0001.jpg
     alt: "Pheasant in the garden"
-    title: "Pheasant in the garden
+    title: "Pheasant in the garden"
   - url: /images/photos/nature/0002.jpg
     image_path: /images/photos/nature/0002.jpg
     alt: "House Sparrow on gutter"
