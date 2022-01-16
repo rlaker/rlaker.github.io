@@ -4,7 +4,7 @@ permalink: "/photos/"
 author_profile: false
 layout: splash
 header:
-  overlay_image: /images/photos/header.jpg
+    overlay_image: /images/photos/header.jpg
 galleryfilm:
   - url: /images/photos/film/0010.jpg
     image_path: /images/photos/film/0010.jpg
