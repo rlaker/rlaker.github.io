@@ -54,7 +54,7 @@ galleryfilm:
       image_path: /images/photos/film/0003.jpg
       alt: "Cliche wingmirror shot (Ilford HP5+)"
       title: "Cliche wingmirror shot (Ilford HP5+)"
-  gallerynature:
+gallerynature:
     - url: /images/photos/nature/_0001.jpg
       image_path: /images/photos/nature/_0001.jpg
       alt: "Pheasant in the garden"
@@ -128,6 +128,9 @@ galleryfilm:
       alt: "Swooping Kestrel"
       title: "Swooping Kestrel"
 ---
+
+- [Film Photography](#film-photography)
+- [Nature](#nature)
 
 ## Film Photography
 
