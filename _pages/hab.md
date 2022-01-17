@@ -16,9 +16,10 @@ I built and launched a High Altitude Balloon (HAB) over a period of 3 months in 
 
 ## Full Flight
 <iframe width="560" height="315" src="https://www.youtube.com/embed/tmvNiw_xOKU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-*Full uncut video of the flight, over 2.5 hours long but I have included links to interesting parts in the description.*
+Full uncut video of the flight, over 2.5 hours long but I have included links to interesting parts in the description.
 
-We have now added the telemetry data as an overlay to the full video, which can be found [here](https://youtu.be/pte5artBw7I).
+<iframe width="560" height="315" src="https://www.youtube.com/embed/pte5artBw7I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+We have now added the telemetry data as an overlay to the full video.
 
 <a name="guide"></a>
 ## Guide 
