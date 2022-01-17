@@ -12,11 +12,11 @@ title: "Visualisations"
 }
 </style>
 
-- [Interactive Orbits](#interactive-orbits) - interactive figure to look at spacecraft orbits for reference.
+- [Interactive Orbits](/vis/orbits) - interactive figure to look at spacecraft orbits for reference.
 - [What is Space Weather and Why Should You Care?](#what-is-my-phd-about) -  a video I made to explain my PhD
 - [Parker Solar Probe Corotation](#parker-solar-probe-co-rotation) - a gif to show how Parker Solar Probe co-rotates 
 
-## [Interactive Orbits](/vis/orbits)
+## [Interactive Orbits](/vis/orbits) 
 
 I have created an [interactive plot](/interactive orbits.html/) of spacecraft orbits using [Plotly](https://plotly.com/) , [astrospice](https://pypi.org/project/astrospice/) and [Spiceypy](https://spiceypy.readthedocs.io/en/main/). 
 
