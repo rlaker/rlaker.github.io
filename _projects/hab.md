@@ -1,10 +1,10 @@
 ---
-permalink: /hab/
 layout: splash
 header:
-    overlay_image: /images/HAB/hab_overview.jpg
+  overlay_image: /images/HAB/hab_overview.jpg
 title: "High Altitude Balloon"
 author_profile: false
+toc: true
 redirect_from:
   - /HAB/
 ---
@@ -12,9 +12,11 @@ redirect_from:
 I built and launched a High Altitude Balloon (HAB) over a period of 3 months in the summer of 2017. We (my Dad and I) followed a few blogs and took inspiration from [Dave Akerman](http://www.daveakerman.com/?p=1732) and [Stratodean](http://www.stratodean.co.uk/) who provide excellent guides. You can read a short [report of our findings](/files/hab_report.pdf) and follow the guide [below](#guide). Our flight was picked up by [caters news](http://www.storytrender.com/31497/students-weather-balloon-soars-35000m-survives-temperatures-50c/).
 
 ## Short Highlights
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/sgpJI2Mz7rc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Full Flight
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/tmvNiw_xOKU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 Full uncut video of the flight, over 2.5 hours long but I have included links to interesting parts in the description.
 

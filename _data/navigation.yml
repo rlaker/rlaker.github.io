@@ -3,14 +3,21 @@ main:
   - title: "Publications"
     url: /publications/
 
+  - title: "Projects"
+    url: /projects/
+
   - title: "Visualisations"
     url: /vis/   
 
-  - title: "MSci"
-    url: /msci/    
-
-  - title: "High Altitude Balloon"
-    url: /hab/    
-    
   - title: "Photography"
     url: /photos/
+
+projects:
+  - title: "Hackathon"
+    url: /projects/hackathon/
+
+  - title: "MSci"
+    url: /projects/msci/  
+
+  - title: "High Altitude Balloon"
+    url: /projects/hab/    
