@@ -6,6 +6,8 @@ redirect_from:
   - /HAB/
 ---
 
+![](/images/HAB/hab_overview.jpg)
+
 I built and launched a High Altitude Balloon (HAB) over a period of 3 months in the summer of 2017. We (my Dad and I) followed a few blogs and took inspiration from [Dave Akerman](http://www.daveakerman.com/?p=1732) and [Stratodean](http://www.stratodean.co.uk/) who provide excellent guides. You can read a short [report of our findings](/files/hab_report.pdf) and follow the guide [below](#guide). Our flight was picked up by [caters news](http://www.storytrender.com/31497/students-weather-balloon-soars-35000m-survives-temperatures-50c/).
 
 ## Short Highlights
