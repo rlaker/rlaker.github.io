@@ -1,10 +1,7 @@
 ---
-layout: splash
-header:
-  overlay_image: /images/HAB/hab_overview.jpg
-title: "High Altitude Balloon"
 author_profile: false
 toc: true
+toc_sticky: true
 redirect_from:
   - /HAB/
 ---
@@ -22,17 +19,6 @@ Full uncut video of the flight, over 2.5 hours long but I have included links to
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/pte5artBw7I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 We have now added the telemetry data as an overlay to the full video.
-
-<a name="guide"></a>
-## Guide 
-1. [Radio](#radio)
-2. [Antenna](#antenna)
-3. [Experiments](#experiments)
-4. [Photography](#photography)
-5. [Payload](#payload)
-6. [Balloon](#balloon)
-7. [Launching](#launching)
-8. [NOTAM](#notam)
 
 <a name="radio"></a>
 ## Radio

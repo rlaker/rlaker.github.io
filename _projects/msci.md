@@ -1,6 +1,7 @@
 ---
 title: "Parker Solar Probe: Connecting Spacecraft Observations to the Sun’s Surface"
 toc: true
+toc_sticky: true
 ---
 
 During my 4th year at Imperial College London (2018) I worked with Prof. T. S. Horbury for my MSci project. We used data from the newly launched Parker Solar Probe, and attempted to model where on the Sun this spacecraft was connected to. This work resulted in a co-authorship on the [FIELDS instrument's first result paper](https://www.nature.com/articles/s41586-019-1818-7).
