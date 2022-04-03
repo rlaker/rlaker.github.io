@@ -1,6 +1,7 @@
 ---
 title: "Hackathon"
 toc: true
+toc_sticky: true
 ---
 
 
@@ -29,7 +30,7 @@ Now, the price of energy varies throughout the day, so the question is:
 
 Initial data exploration showed that the price of energy was quite periodic/predictable throughout the day. This periodic nature is demonstrated in the figure below, where the price per day is superposed onto the same axes. The large spikes in the afternoon are quite obvious in this figure, and could be something to exploit later in the project.
 
-![Superposed energy price per day in the entire dataset]("/images/hackathon/superposed.png")
+![Superposed energy price per day in the entire dataset](/images/hackathon/superposed.png)
 
 _**Figure 1. Superposed energy price per day in the entire dataset. Spikes in the afternoon are interesting.**_
 
@@ -55,7 +56,7 @@ For each of these `actions`, we can `reward` the agent in the aim that they will
 
 So to summarise we want to teach the `agent` how the maximise the `reward`.
 
-![]("/images/hackathon/flow_chart.png")
+![](/images/hackathon/flow_chart.png)
 
 ### Environment
 
@@ -81,10 +82,20 @@ We now want to reward the `agent` for:
 So achieve this we created a simple `reward` for each `action` that the `agent` took.
 
 $$
-reward = -\Delta E * (current\ price - expected\ price)
+R = -\Delta E * (CP - EP),
 $$
 
-For example, if we are **SELLING** then we will be discharging, so $\Delta E < 0$. If we sell when the price is higher than expected ($current\ price - expected\ price$ > 0) then we will have a positive `reward` ($>0$). If the price was lower than expected, then we would have a negative `reward` ($<0$), which is a punishment.
+where R is the reward, CP is the current price and EP is the expected price and $$\Delta E$$ is the change in energy.
+
+For example, if we are **SELLING** then we will be discharging, so $$\Delta E < 0$$. If we sell when the price is higher than expected ($$CP - EP > 0$$) then we will have a positive `reward` ($$>0$$). If the price was lower than expected, then we would have a negative `reward` ($$<0$$), which is a punishment.
+
+#### Expected Price
+
+This simple reward function requires knowledge of the "expected price". As we didn't have much time, we have settled for a simple approach of taking the "median" average of the previous 24 hours. This does a good job of picking out the central part of the daily shape in [Fig. 1](#energy-price). We originally used the "mean", but this did a poor job when there was a spike in the energy price, as shown in [Fig. 2](#expected-price). Ideally, we would have a much better estimate of "expected price", using some kind of forecasting, which is discussed [later](#expected-price-1).
+
+![Comparison of mean and median average of the energy price](/images/hackathon/mean_median.png)
+
+_**Fig. 2 Comparison of mean and median average of the energy price**_
 
 ### Training the Model
 
@@ -92,26 +103,103 @@ Since we have systematically defined the `reward`, `agent`, `actions`, then we c
 
 ## Results
 
-![]("/images/hackathon/before_training.png)
-![]("/images/hackathon/after_training.png)
+### Before training
 
-show the trained vs untrained comparison
+To demonstrate how well the training performs, we have shown the performance of an "un-trained" `agent` in [Fig. 3](#results). Here we can see that it just randomly takes actions, which results in a total `reward` centered around 0.
 
-I really like this for showing how it initially takes random actions
+![Agent performance before it is trained](/images/hackathon/before_training.png)
+
+_**Fig. 3: Agent choosing random actions before it is trained.**_ 
+
+### After training
+
+After the training, we can see that it takes fewer buy or sell actions, and is making a steady profit. Over the entire 3 year period our model made £15,000 profit. We were really happy with this result, as it gave an increasing profit but with a solution that has lots of room for development. 
+
+![Agent performance after training](/images/hackathon/after_training.png)
+
+_**Fig. 4: Agent after training, where it takes a more succesfull strategy**_ 
+
 
 ## Room for improvement
 
-go into detail about it getting too excited and selling early, which is a problem from us resetting to the start
+### Selling too early
 
-so if we could make it wait for the peak, we could make much more money
+We noticed that our model would sell the instant that the "current price" went above the "expected price". Although this does make a profit, it means that we run out of energy to sell before the maximum energy price of the peak. 
 
-one way to do this is to make it discharge slower, so that it does not run out of energy before selling right at the peak. 
+We attempted to alter the reward by adding some kind of gradient of energy price, but could not get it to work in the time limit.
 
-we showed this as an example in the Hackathon by just changing the power to 0.5MW instead of 1 MW. You can see that this smooths out the profit, and actually increases it by £10,000!
+Just before submission we altered the discharging rate of the battery (by halving it). This allowed the model to make more **sell** actions before it ran out of charge. Such a simple change increased our profit by another £10,000.
 
-ideally, we will incorporate a forecasting model, so the agent will know that a peak is about to happen and hopefully wait.
+This could be further improved by knowing a more accurate forecast of the energy price...
 
+### Expected Price
+
+Ideally we would have a forecast of the energy price as our "expected price" instead of the median average. However, we did not have time to complete this as part of the Hackathon. We have since worked on a [Bayesian forecasting technique](https://github.com/rlaker/Hackathon/issues/24), which looks promising.
 
 ## Timeline
 
-look through git graph 
+Before the Hackathon
+: We created a [GitHub repo](https://github.com/rlaker/Hackathon) with a basic conda environment and pre-commits installed
+
+11:30
+: Projects are announced. We chose the energy based project over the image based one. But we were unsure whether to focus on battery charging or forecasting the energy price.
+
+12:00
+: Brainstormed potential solutions. For the battery aspect, we naively thought it could be solved through if/else statements.
+
+12:30
+: Went to pick up freebies and pizza. Although, this took an hour to arrive!
+
+14:00
+: Got the data loaded and parsed into pandas DataFrames.
+
+17:00
+: Wasted a lot of time trying to sort out timezones (which we didn't even use in the end). Also kept trying different solutions and researching forecasting models.
+
+19:00
+: Got a bus from University back home, and used this as an opportunity to research Reinforcement learning.
+
+21:00
+: Ate a curry and talked about the different Python packages we may need.
+
+22:00
+: Installed PyTorch, Gym and stable-baselines3.
+
+01:00
+: Created the Gym based environment for our agent to learn.
+
+02:00
+: Started making the submission notebook.
+
+02:20
+: Succesfully trained the model on a month of data.
+
+03:00
+: Finished for the night with an ok model.
+
+09:30
+: Changed mean to median which greatly improved the model.
+
+10:00 
+: Changed the way the model "saw" the data. This was a crucial structural change as we could give it a smaller array, which sped up learning.
+
+11:00
+: Made final submission notebook
+
+11:30
+: Tried to make a video presentation, but ran out of time. Just rick rolled the judges instead...
+
+13:30 
+: The plan said winners would give a presentation now. But the schedule was changed.
+
+13:40
+: Told we would be giving a presentation at 14:30
+
+14:30 
+: Quickly made a presentation.
+
+15:00 
+: Phil gave an incredible presentation that receieved very positive feeback.
+
+16:00
+: Winners announced! (🎉)
