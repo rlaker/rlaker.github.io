@@ -120,6 +120,12 @@ After the training, we can see that it takes fewer buy or sell actions, and is m
 _**Fig. 4: Agent after training, where it takes a more succesfull strategy**_ 
 
 
+This is the final result on the whole dataset.
+
+![](/images/hackathon/whole_dataset.png)
+
+_**Fig. 5: Results over the whole dataset, with a profit of £15,000**_
+
 ## Room for improvement
 
 ### Selling too early
@@ -128,7 +134,12 @@ We noticed that our model would sell the instant that the "current price" went a
 
 We attempted to alter the reward by adding some kind of gradient of energy price, but could not get it to work in the time limit.
 
-Just before submission we altered the discharging rate of the battery (by halving it). This allowed the model to make more **sell** actions before it ran out of charge. Such a simple change increased our profit by another £10,000.
+Just before submission we altered the discharging rate of the battery (by halving it). This allowed the model to make more **sell** actions before it ran out of charge. Such a simple change increased our profit by another £10,000 as seen below.
+
+![Effect of reducing the power output of the battery](/images/hackathon/half_power.png)
+
+_**Fig. 6: If we reduced the power output of the battery by half, we can greatly increase the profit over [Fig. 5](#after-training)**_
+
 
 This could be further improved by knowing a more accurate forecast of the energy price...
 
