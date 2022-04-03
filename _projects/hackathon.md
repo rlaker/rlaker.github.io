@@ -119,6 +119,7 @@ After the training, we can see that it takes fewer buy or sell actions, and is m
 
 _**Fig. 4: Agent after training, where it takes a more succesfull strategy**_ 
 
+### Whole dataset
 
 This is the final result on the whole dataset.
 
@@ -138,7 +139,7 @@ Just before submission we altered the discharging rate of the battery (by halvin
 
 ![Effect of reducing the power output of the battery](/images/hackathon/half_power.png)
 
-_**Fig. 6: If we reduced the power output of the battery by half, we can greatly increase the profit over [Fig. 5](#after-training)**_
+_**Fig. 6: If we reduced the power output of the battery by half, we can greatly increase the profit over [Fig. 5](#whole-dataset)**_
 
 
 This could be further improved by knowing a more accurate forecast of the energy price...
