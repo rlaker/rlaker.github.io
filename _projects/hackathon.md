@@ -20,7 +20,7 @@ Our team consisted of:
 
 ## The Problem
 
-The energy supplied by renewables is sporadic, and has to be stored in batteries when the demand is low. It is then ready to sell to the customer when demand then becomes high.
+The energy supplied by renewables is sporadic, and has to be stored in batteries when the demand is low. It is then ready to sell to the customer when demand becomes high.
 
 Now, the price of energy varies throughout the day, so the question is:
 
