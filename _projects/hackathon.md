@@ -28,7 +28,7 @@ Now, the price of energy varies throughout the day, so the question is:
 
 ### Energy price
 
-Initial data exploration showed that the price of energy was quite periodic/predictable throughout the day. This periodic nature is demonstrated in the figure below, where the price per day is superposed onto the same axes. The large spikes in the afternoon are quite obvious in this figure, and could be something to exploit later in the project.
+Initial data exploration showed that the price of energy was quite periodic/predictable throughout the day. This periodic nature is demonstrated in the figure below, where the price per day (for the entire 3 year dataset) is superposed onto the same axes. The large spikes in the afternoon are quite obvious in this figure, and could be something to exploit later in the project.
 
 ![Superposed energy price per day in the entire dataset](/images/hackathon/superposed.png)
 
