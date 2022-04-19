@@ -10,6 +10,8 @@ redirect_from:
 
 I am a PhD student at [Imperial College London](https://www.imperial.ac.uk/space-and-atmospheric-physics) studying the solar wind in the inner heliosphere with the new Parker Solar Probe and Solar Orbiter missions. Interested in using multiple spacecraft to measure the 3D shape of large scale structures in the solar wind, particularly the heliospheric current sheet and stream interaction regions.
 
+I also work on understanding switchbacks with Parker Solar Probe, particularly their shape and how this could link to their generation mechanism.
+
 View my <a href="/publications/">publications</a> or see a full list at [Google Scholar](https://scholar.google.com/citations?user=59iEPNwAAAAJ) <i class="fas fa-graduation-cap"></i>.
 
 > Supported by an Imperial College President's scholarship.
