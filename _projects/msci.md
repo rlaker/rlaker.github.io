@@ -4,19 +4,72 @@ toc: true
 toc_sticky: true
 ---
 
+<style> 
+.custombutton,
+.custombutton:visited{
+    border-radius: 8px;
+    font-size: 20px;
+    margin-bottom:5px;
+    padding-top:0px;
+    padding-bottom:0px;
+    padding-left:15px;
+    padding-right:15px;
+    height: 4em;
+    border: 2px solid black;
+    color: black;
+    text-decoration: none;
+    text-align: center;  
+}
+
+.custombutton:hover {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+}
+
+.buttonpdf,
+.buttonpdf:visited {
+    background-color: white; 
+    color: #f44336; 
+    border: 2px solid #f44336;
+}
+
+.buttonpdf:hover {
+    background-color: #f44336;
+    color: white;
+}
+
+.buttonposter,
+.buttonposter:visited {
+    background-color: white; 
+    color: blue;
+    border: 2px solid  blue;
+}
+
+.buttonposter:hover {
+    background-color: blue;
+    color: white;
+}
+</style>
+
 During my 4th year at Imperial College London (2018) I worked with Prof. T. S. Horbury for my MSci project. We used data from the newly launched Parker Solar Probe, and attempted to model where on the Sun this spacecraft was connected to. This work resulted in a co-authorship on the [FIELDS instrument's first result paper](https://www.nature.com/articles/s41586-019-1818-7).
 
-The results of this project can be read in the [**report**](/files/Ronan_Laker_Msci_Report.pdf) or [**poster**](/files/Ronan_Laker_Tom_Woolley_Poster.pdf). A simplified summary can be read [below](#summary).
+<a class="custombutton buttonpdf" href="/files/Ronan_Laker_Msci_Report.pdf" target="_blank" rel="noopener noreferrer" >Report</a> <a class="custombutton buttonposter" href="/files/Ronan_Laker_Tom_Woolley_Poster.pdf" target="_blank" rel="noopener noreferrer" >Poster</a>
+
 
 ## Videos
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/GgJgghScZCc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-*The color gradient shows the speed of the simulated solar wind (using WSA-ENLIL model) with a more yellow colour indicating a faster solar wind. Top left shows the solar wind and Parker Solar Probe orbit in an inertial frame, whereas the top right is the equivalent but in a frame corotating with the Sun's surface. Parker Solar Probe is shown by the white dot, and Earth by the green dot. The graph underneath shows the predicted velocity Parker Solar Probe was predicted to see for its first orbit in November 2018.*
+<span style="font-size:16px;">
+    The color gradient shows the speed of the simulated solar wind (using WSA-ENLIL model) with a more yellow colour indicating a faster solar wind. Top left shows the solar wind and Parker Solar Probe orbit in an inertial frame, whereas the top right is the equivalent but in a frame corotating with the Sun's surface. Parker Solar Probe is shown by the white dot, and Earth by the green dot. The graph underneath shows the predicted velocity Parker Solar Probe was predicted to see for its first orbit in November 2018.
+</span>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/G5ERYXIiIp8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-*Top left image is from the STEREO-A spacecraft, and the top right is from the SDO spacecraft ahead of Earth. The field of view of these images is shown by the shaded regions of the bottom graph, which is a magnetic map of the Sun's entire surface. Parker Solar Probe had its first closest approach in November 2018, and this links features such as coronal holes and active regions to the in situ data measured by Parker Solar Probe. The magnetic field line connecting to Parker Solar Probe is shown on the bottom graph and the relevant image to show the source region of the solar wind.*
+<span style="font-size:16px">
+    Top left image is from the STEREO-A spacecraft, and the top right is from the SDO spacecraft ahead of Earth. The field of view of these images is shown by the shaded regions of the bottom graph, which is a magnetic map of the Sun's entire surface. Parker Solar Probe had its first closest approach in November 2018, and this links features such as coronal holes and active regions to the in situ data measured by Parker Solar Probe. The magnetic field line connecting to Parker Solar Probe is shown on the bottom graph and the relevant image to show the source region of the solar wind.*
+</span>
 
 <a name="summary"></a>
 ## Lay Person Summary
