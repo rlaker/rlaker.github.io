@@ -7,7 +7,14 @@ author_profile: true
 {% raw %}
 <div class="publicationlist">
 <style>
-.custombutton{
+/* make links have no underline */
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:active { text-decoration: none; }
+
+.custombutton,
+.custombutton:visited{
     border-radius: 8px;
     font-size: 12px;
     margin-bottom:5px;
@@ -17,7 +24,14 @@ author_profile: true
     padding-right:15px;
     height: 12px;
     border: 2px solid black;
+    color: black;
 }
+
+.custombutton:hover {
+    background-color: black;
+    color: white;
+}
+
 /* pre{
     white-space: pre-wrap;  
     white-space: -moz-pre-wrap; 
@@ -28,25 +42,28 @@ author_profile: true
     font-size: 14px;
 }
    */
-.buttonpdf {
-  background-color: white; 
-  color: #f44336; 
-  border: 2px solid #f44336;
+.buttonpdf,
+.buttonpdf:visited {
+    background-color: white; 
+    color: #f44336; 
+    border: 2px solid #f44336;
 }
 
 .buttonpdf:hover {
-  background-color: #f44336;
-  color: white;
+    background-color: #f44336;
+    color: white;
 }
-  
-.buttondoi {
-  background-color: rgb(17, 175, 30); 
-  color: white;
+
+.buttondoi,
+.buttondoi:visited {
+    background-color: white; 
+    color: rgb(17, 175, 30);
+    border: 2px solid  rgb(17, 175, 30);
 }
 
 .buttondoi:hover {
-  background-color: black;
-  color: white;
+    background-color: rgb(17, 175, 30);
+    color: white;
 }
 
 .publicationlist {
@@ -100,14 +117,7 @@ td {
     font-size: 0.5em;
 }
 
-/* make links have no underline */
-a:link { text-decoration: none; }
 
-a:visited { text-decoration: none; }
-
-a:hover { text-decoration: none; }
-
-a:active { text-decoration: none; }
 </style>
 <script>
 function showBibHere(biblink) {
@@ -248,7 +258,7 @@ function expandAuthors(expandLink) {
      <br>
      <span class="buttonline">
      <a class="custombutton" style="cursor: pointer;" onClick="showBibHere(this);">Cite</a>
-      <a class="custombutton buttondoi" href="https://dx.doi.org/10.1051/0004-6361/202140679" target="_blank" rel="noopener noreferrer">DOI</a>
+      <a class="custombutton buttonpdf" href="https://www.ronanlaker.com/files/Laker2021a.pdf" target="_blank" rel="noopener noreferrer" >PDF</a> <a class="custombutton buttondoi" href="https://dx.doi.org/10.1051/0004-6361/202140679" target="_blank" rel="noopener noreferrer">DOI</a>
      </span>
      <pre class="bibhidden">
 @article{Laker2021a,
@@ -259,6 +269,7 @@ function expandAuthors(expandLink) {
   journal      = {Astronomy \& Astrophysics},
   volume       = 652,
   doi          = {10.1051/0004-6361/202140679},
+  file         = {https://www.ronanlaker.com/files/Laker2021a.pdf},
 }</pre>
     </td>
             </tr>
@@ -273,7 +284,7 @@ function expandAuthors(expandLink) {
      <br>
      <span class="buttonline">
      <a class="custombutton" style="cursor: pointer;" onClick="showBibHere(this);">Cite</a>
-      <a class="custombutton buttondoi" href="https://dx.doi.org/10.1051/0004-6361/202039354" target="_blank" rel="noopener noreferrer">DOI</a>
+      <a class="custombutton buttonpdf" href="https://www.ronanlaker.com/files/Laker2021.pdf" target="_blank" rel="noopener noreferrer" >PDF</a> <a class="custombutton buttondoi" href="https://dx.doi.org/10.1051/0004-6361/202039354" target="_blank" rel="noopener noreferrer">DOI</a>
      </span>
      <pre class="bibhidden">
 @article{Laker2021,
@@ -283,6 +294,7 @@ function expandAuthors(expandLink) {
   month        = {June},
   journal      = {Astronomy \& Astrophysics},
   doi          = {10.1051/0004-6361/202039354},
+  file         = {https://www.ronanlaker.com/files/Laker2021.pdf},
 }</pre>
     </td>
             </tr>
