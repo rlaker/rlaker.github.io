@@ -56,7 +56,7 @@ I have separated out some of the animations from the above video. Feel free to u
 
 ## [Interactive Orbits](/vis/orbits) 
 
-I have created an [interactive plot](/interactive orbits.html/) of spacecraft orbits using [Plotly](https://plotly.com/) , [astrospice](https://pypi.org/project/astrospice/) and [Spiceypy](https://spiceypy.readthedocs.io/en/main/). 
+I have created an [interactive plot](/vis/orbits) of spacecraft orbits using [Plotly](https://plotly.com/) , [astrospice](https://pypi.org/project/astrospice/) and [Spiceypy](https://spiceypy.readthedocs.io/en/main/). 
 
 It might look a bit crazy to start with, but you can zoom in by dragging and remove spacecraft by clicking the legend.
 
