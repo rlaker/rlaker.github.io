@@ -44,8 +44,8 @@ galleryfilm:
     title: "Jane Austen's house (Ilford FP4)"
   - url: /images/photos/film/0005.jpg
     image_path: /images/photos/film/0005.jpg
-    alt: "Shopfront, London (Kodak Ultramax 400)"
-    title: "Shopfront, London (Kodak Ultramax 400)"
+    alt: "The Coliseum, Oakland (Fuji Superia 400)"
+    title: "The Coliseum, Oakland (Fuji Superia 400)"
   - url: /images/photos/film/0011.jpg
     image_path: /images/photos/film/0011.jpg
     alt: "Golden leaves, London (Kodak Ultramax 400)"
