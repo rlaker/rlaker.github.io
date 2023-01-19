@@ -1,5 +1,7 @@
 ---
 permalink: /vis/
+toc: true
+toc_sticky: true
 title: "Visualisations"
 ---
 
@@ -12,25 +14,12 @@ title: "Visualisations"
 }
 </style>
 
-- [Interactive Orbits](/vis/orbits) - interactive figure to look at spacecraft orbits for reference.
 - [What is Space Weather and Why Should You Care?](#what-is-my-phd-about) -  a video I made to explain my PhD
+- [Space physics explanations](#space-physics-explanations) - select animations from the Space weather video
+- [Interactive Orbits](/vis/orbits) - interactive figure to look at spacecraft orbits for reference.
 - [Parker Solar Probe Corotation](#parker-solar-probe-co-rotation) - a gif to show how Parker Solar Probe co-rotates 
 
 The code for each of these projects can be found on [GitHub](https://github.com/rlaker/visualisations/) <i class="fab fa-github"></i>.
-
-## [Interactive Orbits](/vis/orbits) 
-
-I have created an [interactive plot](/interactive orbits.html/) of spacecraft orbits using [Plotly](https://plotly.com/) , [astrospice](https://pypi.org/project/astrospice/) and [Spiceypy](https://spiceypy.readthedocs.io/en/main/). 
-
-It might look a bit crazy to start with, but you can zoom in by dragging and remove spacecraft by clicking the legend.
-
-It includes the following spacecraft:
-
-- Parker Solar Probe
-- Solar Orbiter
-- BepiColombo
-- Earth (which is close enough for Wind, ACE and DSCOVR)
-- STEREO-A
 
 ## What is my PhD about?
 
@@ -47,7 +36,39 @@ I also created this [poster](/files/oceans_poster.pdf) to explain my second firs
 <br>
 <br>
 
-# Parker Solar Probe Co-rotation
+
+## Space physics explanations
+
+I have separated out some of the animations from the above video. Feel free to use in any presentations (with credit please).
+
+### Magnetic field polarity
+
+<img src="/files/polarity.gif" alt="Parker Solar Probe Corotation" class="center">
+
+### Parker spiral
+
+<img src="/files/SpinSolarWind_480p.gif" alt="Parker Solar Probe Corotation" class="center">
+
+### Spacecraft Constellation
+
+<img src="/files/spacecraft.gif" alt="Parker Solar Probe Corotation" class="center">
+
+
+## [Interactive Orbits](/vis/orbits) 
+
+I have created an [interactive plot](/vis/orbits) of spacecraft orbits using [Plotly](https://plotly.com/) , [astrospice](https://pypi.org/project/astrospice/) and [Spiceypy](https://spiceypy.readthedocs.io/en/main/). 
+
+It might look a bit crazy to start with, but you can zoom in by dragging and remove spacecraft by clicking the legend.
+
+It includes the following spacecraft:
+
+- Parker Solar Probe
+- Solar Orbiter
+- BepiColombo
+- Earth (which is close enough for Wind, ACE and DSCOVR)
+- STEREO-A
+
+## Parker Solar Probe Co-rotation
 
 <img src="/files/psp_corotation_anti.gif" alt="Parker Solar Probe Corotation" class="center">
 
