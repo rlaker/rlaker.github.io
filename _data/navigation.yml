@@ -6,9 +6,6 @@ main:
   - title: "Publications"
     url: /publications/
 
-  - title: "Visualisations"
-    url: /vis/   
-
   - title: "Photography"
     url: /photos/
 
@@ -16,8 +13,11 @@ projects:
   - title: "Hackathon"
     url: /projects/hackathon/
 
-  - title: "MSci"
-    url: /projects/msci/  
-
   - title: "High Altitude Balloon"
     url: /projects/hab/    
+
+  - title: "Visualisations"
+    url: /vis/  
+
+  - title: "MSci project"
+    url: /projects/msci/  

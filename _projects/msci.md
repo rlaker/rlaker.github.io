@@ -1,8 +1,12 @@
 ---
-title: "Parker Solar Probe: Connecting Spacecraft Observations to the Sun’s Surface"
+title: "MSci project"
 toc: true
 toc_sticky: true
 ---
+
+This project aimed to predict the solar wind conditions that would be experienced by Parker Solar Probe on its first encounter with the Sun. 
+
+This ended up being part of the first results paper published in nature. This work resulted in a co-authorship on the [FIELDS instrument's first result paper](https://www.nature.com/articles/s41586-019-1818-7).
 
 <style> 
 .custombutton,
@@ -52,7 +56,6 @@ toc_sticky: true
 }
 </style>
 
-During my 4th year at Imperial College London (2018) I worked with Prof. T. S. Horbury for my MSci project. We used data from the newly launched Parker Solar Probe, and attempted to model where on the Sun this spacecraft was connected to. This work resulted in a co-authorship on the [FIELDS instrument's first result paper](https://www.nature.com/articles/s41586-019-1818-7).
 
 <a class="custombutton buttonpdf" href="/files/Ronan_Laker_Msci_Report.pdf" target="_blank" rel="noopener noreferrer" >Report</a> <a class="custombutton buttonposter" href="/files/Ronan_Laker_Tom_Woolley_Poster.pdf" target="_blank" rel="noopener noreferrer" >Poster</a>
 

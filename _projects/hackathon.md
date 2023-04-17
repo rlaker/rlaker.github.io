@@ -5,7 +5,9 @@ toc_sticky: true
 ---
 
 
-We recently entered (and won 🎉) a [Hackathon](https://2022.aihack.org) hosted by the Imperial College Data Science Society ([ICDSS](https://imperialdatasoc.co.uk/)).
+We won a hackathon by using reinforcement learning to create a strategy of charging a battery based on fluctuating energy price.
+
+This was part of a [hackathon](https://2022.aihack.org) hosted by the Imperial College Data Science Society ([ICDSS](https://imperialdatasoc.co.uk/)).
 
 Our code can be found on [GitHub](https://github.com/rlaker/Hackathon) <i class="fab fa-github"></i>. The state of the repo at time of submission can be found in the releases. However, we were very tired/rushed from the Hackathon format so we have tried to clean up the repo, and have added a few more features since the hackathon.
 

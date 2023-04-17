@@ -1,14 +1,56 @@
 ---
 author_profile: false
+title: "High altitude balloon"
 toc: true
 toc_sticky: true
 redirect_from:
   - /HAB/
 ---
 
-![](/images/HAB/hab_overview.jpg)
+I designed, built and recovered a payload for a high altitude balloon that acquired photographs and video in addition to recording atmospheric variables, such as pressure and temperature, throughout a successful flight to an altitude of 35 km.
 
-I built and launched a High Altitude Balloon (HAB) over a period of 3 months in the summer of 2017. We (my Dad and I) followed a few blogs and took inspiration from [Dave Akerman](http://www.daveakerman.com/?p=1732) and [Stratodean](http://www.stratodean.co.uk/) who provide excellent guides. You can read a short [report of our findings](/files/hab_report.pdf) and follow the guide [below](#guide). Our flight was picked up by [caters news](http://www.storytrender.com/31497/students-weather-balloon-soars-35000m-survives-temperatures-50c/).
+This was based on the excellent guides from [Dave Akerman](http://www.daveakerman.com/?p=1732) and [Stratodean](http://www.stratodean.co.uk/). You can also follow our guide [below](#guide).
+
+<style> 
+.custombutton,
+.custombutton:visited{
+    border-radius: 8px;
+    font-size: 20px;
+    margin-bottom:5px;
+    padding-top:0px;
+    padding-bottom:0px;
+    padding-left:15px;
+    padding-right:15px;
+    height: 4em;
+    border: 2px solid black;
+    color: black;
+    text-decoration: none;
+    text-align: center;  
+}
+
+.custombutton:hover {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+}
+
+.buttonpdf,
+.buttonpdf:visited {
+    background-color: white; 
+    color: #c90241; 
+    border: 2px solid #c90241;
+}
+
+.buttonpdf:hover {
+    background-color: #c90241;
+    color: white;
+}
+</style>
+
+
+<a class="custombutton buttonpdf" href="/files/hab_report.pdf" target="_blank" rel="noopener noreferrer" >Report</a>
+
+![](/images/HAB/hab_overview.jpg)
 
 ## Short Highlights
 
@@ -23,6 +65,9 @@ Full uncut video of the flight, over 2.5 hours long but I have included links to
 We have now added the telemetry data as an overlay to the full video.
 
 <a name="radio"></a>
+
+# Guide
+
 ## Radio
 
 A good way to start with this project is to track other people's balloons. Most payloads (box carried by the balloon) transmit radio signals around the 434MHz mark, this means that with the right aerial anyone (within a certain radius) can pick up the signals, decode them and upload them to a live map.

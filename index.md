@@ -8,35 +8,18 @@ redirect_from:
   - /about.html
 ---
 
-I am a PhD student at [Imperial College London](https://www.imperial.ac.uk/space-and-atmospheric-physics) studying the solar wind in the inner heliosphere with the new Parker Solar Probe and Solar Orbiter missions. Interested in using multiple spacecraft to measure the 3D shape of large scale structures in the solar wind, particularly the heliospheric current sheet and stream interaction regions.
+Recently graduated PhD student at [Imperial College London](https://www.imperial.ac.uk/space-and-atmospheric-physics), where I studied the solar wind with the new Parker Solar Probe and Solar Orbiter missions.
 
-I also work on understanding switchbacks with Parker Solar Probe, particularly their shape and how this could link to their generation mechanism.
+My publications can be found <a href="/publications/">here</a>, with a full list at [Google Scholar](https://scholar.google.com/citations?user=59iEPNwAAAAJ) <i class="fas fa-graduation-cap"></i>.
 
-View my <a href="/publications/">publications</a> or see a full list at [Google Scholar](https://scholar.google.com/citations?user=59iEPNwAAAAJ) <i class="fas fa-graduation-cap"></i>.
-
-> Supported by an Imperial College President's scholarship.
-
+I have also created a short animation to describe my PhD (below), along with some other useful <a href="/vis/">visualisations</a>.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/rI2yBMnZMpU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
-## Education
+## [Projects](/projects)
 
-* Imperial College London (2019- )
-  * PhD in Space Plasma Physics
-
-* Imperial College London (2015-2019)
-  * MSci in Physics
-  * Graduated top of the MSci cohort (1st out of 149 students)  
-
-* Balcarras School (2008-2015)
-  * A-level: Physics (A\*), Mathematics (A\*), Further Mathematics (A\*)
-  * GCSE: 11 A\*
-
-## Awards
-
-* **Abdus Salam UG Prize** for the best MSci graduate in the Physics Department
-* **Governors’ MSci Prize** for the best MSci student in Physics at the final examinations
-* **Ludlam Prize** for excellence in Atmospheric physics
-* **TTP UG Prize** for Academic Excellence in Physics for the 2017-2018 academic year
-* **Winton Capital Prize** for outstanding performance in second year physics for the 2016-2017 academic year
+* [Hackathon](/projects/hackathon) using reinforcement learning to dis/charge a battery based on fluctuating energy price
+* [High altitude balloon](/projects/hab) that recorded images and atmospheric data to an altitude of 35km
+* [Visualisations](/vis) made to explain space physics concepts
+* [MSci project](/projects/msci) predicting solar wind conditions for Parker Solar Probe's first orbit

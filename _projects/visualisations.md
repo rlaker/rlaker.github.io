@@ -5,6 +5,8 @@ toc_sticky: true
 title: "Visualisations"
 ---
 
+A few visualisations I have made to explain space physics concepts. 
+
 <style>
 .center {
   display: block;
@@ -21,7 +23,7 @@ title: "Visualisations"
 
 The code for each of these projects can be found on [GitHub](https://github.com/rlaker/visualisations/) <i class="fab fa-github"></i>.
 
-## What is my PhD about?
+## What was my PhD about?
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/rI2yBMnZMpU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -29,7 +31,7 @@ I made this video for the Faculty of Natural Science [Showcase](https://www.impe
 
 This touches on space weather and how the Sun can influence life on Earth. I also explain the Sun's magnetic field and the concept of the Parker spiral, while introducing the 5 spacecraft that is use including Parker Solar Probe and Solar Orbiter.
 
-I also created this [poster](/files/oceans_poster.pdf) to explain my second first-authored [paper](/files/Laker2021a.pdf). The idea is that we want to see how the solar wind varies with latitude, so we are using a team of spacecraft to do that. These spacecraft each have their own unique abilities, hence the [Ocean's 11](https://www.redbubble.com/i/poster/Oceans-Eleven-by-Sun4FunShop/83681293.LVTDI) theme.
+I also created this [poster](/files/oceans_poster.pdf) to explain my second first-authored [paper](/files/Laker2021a.pdf). The idea is that we want to see how the solar wind varies with latitude, so we are using a team of spacecraft to do that. These spacecraft each have their own unique abilities, hence the [Ocean's 11](https://www.designmantic.com/blog/wp-content/uploads/2017/10/The-Ocean-Eleven.jpg) theme.
 
 <embed src="/files/oceans_poster.pdf" width="560" height="750" />
 
