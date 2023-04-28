@@ -2,9 +2,16 @@
 title: "MSci project"
 toc: true
 toc_sticky: true
+header:
+    overlay_image: /images/msci.png
+    overlay_filter: 0.2
+    actions:
+    - label: "Report"
+      url: "/files/Ronan_Laker_Msci_Report.pdf"
+excerpt: "Project aimed to predict the solar wind conditions that would be experienced by Parker Solar Probe on its first encounter with the Sun"
 ---
 
-This project aimed to predict the solar wind conditions that would be experienced by Parker Solar Probe on its first encounter with the Sun. 
+
 
 This ended up being part of the first results paper published in nature. This work resulted in a co-authorship on the [FIELDS instrument's first result paper](https://www.nature.com/articles/s41586-019-1818-7).
 

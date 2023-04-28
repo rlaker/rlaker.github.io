@@ -1,0 +1,30 @@
+---
+title: "Obsidian Tutorial"
+header:
+    overlay_image: /images/obsidian.png
+    overlay_filter: 0.2
+    actions:
+    - label: "GitHub"
+      url: "https://github.com/rlaker/Obsidian-for-Academia"
+excerpt: "Tutorial to use the Obsidian note taking app in academia"
+---
+
+I made this tutorial within Obsidian itself, as you can only appreciate the connected nature of the notes by playing around with them. Therefore, I hope to **show**, rather than tell, you how it works. 
+
+This vault comes with some plugins and templates pre-installed, which hopefully gives you a good base to try out Obsidian and see if you like it.
+
+# Installation
+
+Install [Obsidian](https://obsidian.md/) and download the [repository](https://github.com/rlaker/Obsidian-for-Academia) <i class="fab fa-github"></i>.
+
+Inside Obsidian, "open folder as vault" which should open up the start page (Notes/Obsidian). If not then open this file and the tutorial will continue from there.
+
+> To allow third party plugins, you will need to go into settings and enable community plugins (Settings > Community plugins)
+
+# How it works
+
+Obsidian is a note taking app, where essentially you are just editing text files with a few extra bells and whistles. The **key** is that you can link notes together with simple wiki link (they look like [[this]]). This allows structure to form as you write down ideas, so you don't need to create a complex folder structure.
+
+By linking these ideas together, structure can naturally form that matches your way of thinking. You also get a cool graph like this:
+
+![image](/images/obsidian.png)

@@ -5,6 +5,9 @@ toc: true
 toc_sticky: true
 redirect_from:
   - /HAB/
+header:
+    overlay_image: /images/HAB/hab_overview.jpg
+excerpt: "Sent a high altitude to space (well, 35km) while taking pictures and measuring atmospheric variables"
 ---
 
 I designed, built and recovered a payload for a high altitude balloon that acquired photographs and video in addition to recording atmospheric variables, such as pressure and temperature, throughout a successful flight to an altitude of 35 km.

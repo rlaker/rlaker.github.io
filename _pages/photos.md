@@ -141,6 +141,3 @@ After being generously loaned a Pentax P30 I have started trying film photograph
 ## Nature
 
 {% include gallery id="gallerynature" layout = "third" %}
-
-
-<a data-flickr-embed="true" data-footer="true" href="https://www.flickr.com/photos/197466194@N06/albums/72177720307248082" title="Test"><img src="https://live.staticflickr.com/65535/52793610138_b5ffc13edb.jpg" width="640" height="480" alt="Test"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>

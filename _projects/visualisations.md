@@ -3,9 +3,14 @@ permalink: /vis/
 toc: true
 toc_sticky: true
 title: "Visualisations"
+header:
+    overlay_image: /images/FrozenIn.png
+    overlay_filter: 0.2
+    actions:
+    - label: "GitHub"
+      url: "https://github.com/rlaker/Visualisations"
+excerpt: "A few visualisations I have made to explain space physics concepts"
 ---
-
-A few visualisations I have made to explain space physics concepts. 
 
 <style>
 .center {

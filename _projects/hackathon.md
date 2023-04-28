@@ -2,10 +2,14 @@
 title: "Hackathon"
 toc: true
 toc_sticky: true
+header:
+    overlay_image: /images/hackathon.png
+    overlay_filter: 0.2
+    actions:
+    - label: "GitHub"
+      url: "https://github.com/rlaker/hackathon"
+excerpt: "We won a hackathon by using reinforcement learning to create a strategy of charging a battery based on fluctuating energy price"
 ---
-
-
-We won a hackathon by using reinforcement learning to create a strategy of charging a battery based on fluctuating energy price.
 
 This was part of a [hackathon](https://2022.aihack.org) hosted by the Imperial College Data Science Society ([ICDSS](https://imperialdatasoc.co.uk/)).
 

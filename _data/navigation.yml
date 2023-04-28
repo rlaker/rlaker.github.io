@@ -16,6 +16,9 @@ projects:
   - title: "High Altitude Balloon"
     url: /projects/hab/    
 
+  - title: "Obsidian Tutorial"
+    url: /projects/obsidian/    
+
   - title: "Visualisations"
     url: /vis/  
 

@@ -22,4 +22,5 @@ I have also created a short animation to describe my PhD (below), along with som
 * [Hackathon](/projects/hackathon) using reinforcement learning to dis/charge a battery based on fluctuating energy price
 * [High altitude balloon](/projects/hab) that recorded images and atmospheric data to an altitude of 35km
 * [Visualisations](/vis) made to explain space physics concepts
+* [Obsidian](/projects/obsidian) tutorial aimed at use in academia
 * [MSci project](/projects/msci) predicting solar wind conditions for Parker Solar Probe's first orbit
