@@ -7,5 +7,22 @@
 
 $link-color: black;
 
+a {
+    text-decoration: none; // This removes the underline.
+    font-weight: bold;     // This makes the text bold.
+}  
+
+a:not(.btn) {
+    &:hover {
+      text-decoration: none;
+
+      img {
+        box-shadow: 0 0 10px rgba(#000, 0.25);
+      }
+    }
+}
+
+$link-color-hover: #2ed2d5 !default;
+
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
