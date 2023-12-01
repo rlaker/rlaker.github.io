@@ -126,6 +126,10 @@ blockquote {
 /* links */
 
 a {
+
+  text-decoration: none; // This removes the underline.
+  font-weight: bold;     // This makes the text bold.
+
   &:focus {
     @extend %tab-focus;
   }
