@@ -3,6 +3,9 @@ main:
   - title: "Projects"
     url: /projects/
 
+  - title: "Cooking"
+    url: /cooking/
+
   - title: "Publications"
     url: /publications/
 
