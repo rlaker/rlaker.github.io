@@ -8,7 +8,7 @@ header:
     actions:
     - label: "Report"
       url: "/files/Ronan_Laker_Msci_Report.pdf"
-excerpt: "Project aimed to predict the solar wind conditions that would be experienced by Parker Solar Probe on its first encounter with the Sun"
+excerpt: "Predicted the solar wind conditions experienced by Parker Solar Probe on its first encounter with the Sun"
 ---
 
 
