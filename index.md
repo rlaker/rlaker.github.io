@@ -10,6 +10,10 @@ redirect_from:
   - /about.html
 ---
 
+I am a data scientist currently working at [Trainline](https://www.thetrainline.com/) <i class="fas fa-train"></i>. Before that, I studied the solar wind for my PhD at Imperial College London <i class="fas fa-solid fa-sun"></i>, where I also completed my physics degree <i class="fas fa-graduation-cap"></i>.
+
+I enjoy having a play with data and seeing how it can help me with my other hobbies, such as [cooking](/cooking) and [photography](/photos).
+
 
 
 ## [Projects](/projects)
@@ -22,7 +26,7 @@ redirect_from:
 
 ## [Cooking](/cooking)
 
-Try out my experimental cooking [page](/cooking). This is how I catalogue and take notes on recipes from around the internet. Created in [Obsidian](https://obsidian.md/) so that ingredients connect to recipes which connect to cookbooks.
+Try out my experimental cooking [page](/cooking). This is how I catalogue and take notes on recipes from around the internet. Created in [Obsidian](https://obsidian.md/) so that ingredients connect to recipes, which connect to cookbooks, which connects back to recipes and... you get the idea.
 
 ## [Publications](/publications)
 
