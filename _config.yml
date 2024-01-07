@@ -20,7 +20,7 @@ title                    : "Ronan Laker"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Ronan Laker"
-description              : &description "PhD Student at Imperial College London"
+description              : &description "Data scientist with a space physics PhD"
 url                      : https://www.ronanlaker.com # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "rlaker/rlaker.githubl.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
