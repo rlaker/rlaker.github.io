@@ -1,5 +1,6 @@
 ---
 tags: til
+excerpt: "Using shinylive to run Python apps within the browser"
 ---
 
 I wrote about the [Shiny for Python](https://shiny.posit.co/py) framework in another blog [post](/shiny-web-apps), however, I had not quite grasped the power of [shinylive](https://shiny.posit.co/py/docs/shinylive.html). This uses [pyodide](https://pyodide.org/en/stable/) to run within the browser, allowing interactive web apps to run on static generated sites such as Github Pages or Netlify.
