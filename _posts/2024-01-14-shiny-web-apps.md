@@ -1,5 +1,5 @@
 ---
-tags: til
+tags: [til, python, visualisation]
 ---
 
 Today I learnt about [Shiny for Python](https://shiny.posit.co/py/), a way to make slick web apps in Python. I had a vague knowledge of [streamlit](https://streamlit.io/), where the general idea is to write a script in Python, and then turn it into a web app at a later date by adding extra streamlit commands. However, as explained in this [talk](https://youtu.be/ijRBbtT2tgc?si=EuAyTOhItzt_0Hza), the entire (potentially costly) script needs to be re-run to refresh the web page.

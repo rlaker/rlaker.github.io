@@ -1,6 +1,7 @@
 ---
 tags: til
 title: "How to create professional figures with Matplotlib"
+tags: [python, visualisation]
 ---
 
 Having recently joined the corporate world I was affronted with figures made in Excel. I had to admit that these figures looked more at home in presentations than my bog-standard [Matplotlib](https://matplotlib.org/) efforts.

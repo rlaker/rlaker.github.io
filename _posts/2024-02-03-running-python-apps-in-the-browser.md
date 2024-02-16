@@ -1,5 +1,5 @@
 ---
-tags: til
+tags: [til, python, visualisation]
 excerpt: "Using shinylive to run Python apps within the browser"
 ---
 

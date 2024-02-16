@@ -2,6 +2,7 @@
 title: "What's my most controversial movie opinion?"
 layout: single
 excerpt: "Exploring my Letterboxd data from the last year"
+tags: [python, visualisation]
 ---
 
 
