@@ -1,5 +1,4 @@
 ---
-tags: til
 title: "How to create professional figures with Matplotlib"
 tags: [python, visualisation]
 ---
