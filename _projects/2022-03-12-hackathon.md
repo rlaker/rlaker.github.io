@@ -1,6 +1,6 @@
 ---
-title: "Hackathon"
-permalink: /projects/hackathon
+title: "Renewable energy Hackathon"
+permalink: /projects/hackathon/
 toc: true
 toc_sticky: true
 header:
