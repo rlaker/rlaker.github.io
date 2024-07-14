@@ -14,7 +14,11 @@ Data scientist currently working at [Trainline](https://www.thetrainline.com/) <
 
 I enjoy having a play with data and seeing how it can help me with my other hobbies, such as [cooking](/cooking) and [photography](/photos).
 
-I recently started writing a blog, which you can read [here](/blog).
+I recently started writing a [blog](/blog), with the most recent post below:
+
+{% for post in site.posts limit:1 %}
+    {% include archive-single.html type=entries_layout %}
+{% endfor %}
 
 
 
