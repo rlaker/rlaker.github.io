@@ -2,7 +2,7 @@
 title: "Using git to track how I wrote my PhD thesis"
 excerpt: "One of the many benefits of using git to help write your thesis is that you can go back in time through the project and see how you progressed"
 layout: single
-tags: [visualization]
+tags: [visualisation]
 ---
 
 ![](/images/word_count.png)
