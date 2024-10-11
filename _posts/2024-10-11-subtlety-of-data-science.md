@@ -45,7 +45,7 @@ Unfortunately, the job title alone does not give you enough information. To unde
 
 ## Proving your skills
 
-A portfolio website, or active GitHub, can be a great way to demonstrate your soft skills/project experience in more detail. Even the act of creating one shows a willingness to learn and the dedication to keep it up to date ([[Why Have a Data Science Portfolio and What It Shows]]). 
+A portfolio website, or active GitHub, can be a great way to demonstrate your soft skills/project experience in more detail. Even the act of creating one shows a willingness to learn and the dedication to keep it up to date ([Why Have a Data Science Portfolio and What It Shows](https://eugeneyan.com/writing/data-science-portfolio-how-why-what/)). 
 
 Sometimes it is hard to even understand what soft skills you excel at. These things may seem natural to you, but are a strength when compared to others. 
 
