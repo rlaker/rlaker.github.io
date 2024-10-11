@@ -41,7 +41,7 @@ Know what you want. This will become obvious with experience but its sometimes u
 
 Not only does this help you wade through the sea of job adverts, it means you don't have to lie when they ask you "why do you want this job?".
 
-Unfortunately, the job title alone does not give you enough information. To understand the context of your role in the business you need to ask: "Where on the data science spectrum will I sit?", "Who will I report to?" "and "How well organised is the data?". Questions such as these can be gleaned from a job description, but it is easier to spot these [[Red Flags to Look Out for When Joining a Data Team|red flags]] during the interviews. Over time, one starts to learn the language of recruiters. It then becomes easier to translate phrases like "working with stakeholders to achieve growth targets" into a culture where OKRs must be met at all costs. Often at the expense of deeper, more interesting, projects.
+Unfortunately, the job title alone does not give you enough information. To understand the context of your role in the business you need to ask: "Where on the data science spectrum will I sit?", "Who will I report to?" "and "How well organised is the data?". Questions such as these can be gleaned from a job description, but it is easier to spot these [red flags](https://eugeneyan.com/writing/red-flags/) during the interviews. Over time, one starts to learn the language of recruiters. It then becomes easier to translate phrases like "working with stakeholders to achieve growth targets" into a culture where OKRs must be met at all costs. Often at the expense of deeper, more interesting, projects.
 
 ## Proving your skills
 
