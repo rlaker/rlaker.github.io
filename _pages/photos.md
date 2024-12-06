@@ -129,6 +129,10 @@ gallerynature:
     title: "Swooping Kestrel"
 ---
 
+
+
+TODO: I need to update this page. See more recent pictures on my [Unsplash profile](https://unsplash.com/@rlaker) but for now there are two galleries below: 
+
 - [Film Photography](#film-photography)
 - [Nature](#nature)
 
