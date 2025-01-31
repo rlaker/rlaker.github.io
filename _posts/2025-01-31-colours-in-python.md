@@ -10,16 +10,14 @@ For an example, I really like the **Bay** colourmap, it reminds me of the [gruvb
 
 ![](/images/bay.png)
 
-But what if I want a continuous colourmap? Well, pypalettes allows you to define your own colour palettes and registers them with Matplotlib. Therefore, we can just take the colours of the previous cmap and say I want the `type=continuous`
+But what if I want a continuous colourmap? We can just add `type=continuous`!
 
 ```python
-from pypalettes import load_cmap, add_cmap
+from pypalettes import load_cmap
 
-add_cmap(
-	colors=load_cmap("Bay").colors,
-	name="Bay_cont",
-	cmap_type="continuous"
-)
+load_cmap(cmap_type="continuous")
 ```
 
 ![](/images/bay_cont.png)
+
+pypalettes allows you to easily define your own colour palettes and registers them with Matplotlib, fixing a problem that has always annoyed me!
