@@ -15,7 +15,7 @@ But what if I want a continuous colourmap? We can just add `type=continuous`!
 ```python
 from pypalettes import load_cmap
 
-load_cmap(cmap_type="continuous")
+load_cmap("Bay", cmap_type="continuous")
 ```
 
 ![](/images/bay_cont.png)
