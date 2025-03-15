@@ -44,3 +44,6 @@ Oh and now I get to be that guy who sends quotes like this
 ![](/images/Gill_quote.png)
 
 
+p.s. This [video](https://youtube.com/watch?v=QEJpZjg8GuA&si=jhi7DEhxzIiyKger) summarises the idea of "algorithmic complacency" that I am trying to avoid in this post
+
+
