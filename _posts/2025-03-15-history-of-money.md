@@ -13,7 +13,7 @@ What is going on? Why are we all so obsessed with the future and the concept of 
 
 Well, ["to understand our century we need to comes to terms with at least two others"](https://en.wikipedia.org/wiki/The_Time_Traveller%27s_Guide_to_Medieval_England). Thankfully, many authors agree with this sentiment and have created an entire genre dedicated to this topic. Broadly pitched as a kind of "history of money", these books take a quick canter through humanity's past, cherry-picking stories to explain how we got to whatever it is we are doing in this decade.
 
-![[come_to_terms_with_centuries.png]]
+![](/images/come_to_terms_with_centuries.png)
 
 Although each book touches upon several of the same points in history, e.g. the invention of coins, banking, credit, Globalisation, they each weave together the threads in pleasing different ways. Contrary to what you might think, hearing the same stories over and over is actually quite refreshing. Your confidence grows with each read, allowing more pleasure to be found in the individual stories.
 
@@ -23,27 +23,27 @@ Over the past few years I have explored this genre. In this essay I hope to give
 
 I happened to start on the book with the most ambitious scope. [Sapiens](https://en.wikipedia.org/wiki/Sapiens:_A_Brief_History_of_Humankind), by Yuval Noah Harari, aims to tell the entire story of humanity in "pop-" history, economics and anthropology book all rolled into one. For me, this book was able to explain and connect many "-isms" that I had of course heard of, but not truly appreciated. For example, here are two quotes explaining the difference in attitude between the middle ages: 
 
-![[sapiens_mercantalism.png]]
+![](/images/sapiens_mercantalism.png)
 
 and the imperial age:
 
-![[sapiens_imperialism.png]]
+![](/images/sapiens_imperialism.png)
  
 These stories have essentially introduced us to the difference between [Mercantilism](https://en.wikipedia.org/wiki/Mercantilism) and [Capitalism](https://en.wikipedia.org/wiki/Capitalism) without having to wade through a sea of jargon. As with any popular non-fiction, this book glosses over a lot of nuance in favour of the overall narrative. This is perfect for new readers to this subject and I can give it no higher compliment than having created over 300 highlights on my Kindle.
 
 ## Talking to My Daughter
 
-Although Sapiens gave me a leg up to understanding the history of money, it is a hefty tome that would be hard to revisit every year. That is why "[[Talking to My Daughter]]" by Yanis Varoufakis, weighing in at just over 200 pages, has become a favourite of this genre. This condensed economic take on history has the literary device of a father, who happens to be a former professor in economics, attempting to explain capitalism to his daughter. The subject is sufficiently approachable, with references to cultural touch-points like Frankenstein and The Matrix. Yet the tone remains serious, reflecting the authors own battle with economics following the 2008 financial crisis. 
+Although Sapiens gave me a leg up to understanding the history of money, it is a hefty tome that would be hard to revisit every year. That is why "[Talking to My Daughter](https://www.penguin.co.uk/books/439012/talking-to-my-daughter-by-varoufakis-yanis/9781784705756)" by Yanis Varoufakis, weighing in at just over 200 pages, has become a favourite of this genre. This condensed economic take on history has the literary device of a father, who happens to be a former professor in economics, attempting to explain capitalism to his daughter. The subject is sufficiently approachable, with references to cultural touch-points like Frankenstein and The Matrix. Yet the tone remains serious, reflecting the authors own battle with economics following the 2008 financial crisis. 
 
 The most illuminating example looks at how attitudes towards debt had shifted through the lens of the *Doctor Faustus* story. Literally making a deal with the devil, Faustus signs a contract to give up his soul in return for 24 years of power and bliss. 
 
-![[faustus_marlow.png]]
+![](/images/faustus_marlow.png)
 
 In the original 16th century telling, when Marlow penned the play, christianity viewed usury (paying interest on debt) as a sin. When it comes time for the devil to call in his loan, there is no happy ending, the audience expect the debt to be paid and for Faustus to be dragged to hell.
 
 In contrast, by the time Goethe wrote his 19th century version, the audience had come to accept debt, and the interest paid on it, as part of "modern" life in the industrial revolution. Therefore, as the 24 years come to an end, Faustus attempts to pay back his debt through public acts of good that please God enough to send his angels to intervene and bring him to heaven singing "He who strives on and lives to strive can earn redemption still".
 
-![[faustus_goethe.png]]
+![](/images/faustus_goethe.png)
 
 Varoufakis skillfully weaves this analysis into larger explanation of how humans shifted from "a society with markets, to a market society". As with all good teachers, the author makes you feel like you could have figured this out by yourself, thereby inspiring you to critically examine our current world.
 
@@ -72,7 +72,7 @@ But wait, is that really what I should optimise for?
 
 This is the first book I've read that really examines this philosophical question. According to Housel, we would be much happier if we instead optimised for "sleeping well at night", or for "financial freedom". The author pairs this type of critical analysis with an array of anecdotes from recent history (20th century onwards). So, even though this book only covers living memory, it still has the same effect as the more historical books referenced above. We are reminded that a generation is an extremely long time in monetary terms. Grandparents will tell you to invest in premium bonds, because that's what worked in their decade. Baby boomers will tell you to invest in the stock market, because they lived through the greatest period of economic expansion ever. To me, this book helps convert historical knowledge into practical advice and represents the final piece of the money story.
 
-![[highest_form_of_wealth.png]]
+![](/images/highest_form_of_wealth.png)
 
 # Conclusion
 
