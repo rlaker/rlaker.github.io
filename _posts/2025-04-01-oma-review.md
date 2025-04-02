@@ -66,10 +66,11 @@ Medium Raw - Anthony Bourdain:
 - My aim is true
 
 As well as writing, Bourdain also created timeless food shows. My favourite episode covers the history of classical French cooking with Paul Bocuse, Maison Troigros and an eating society. Its just so French and I love it.
-![](https://youtu.be/TPicFnp0Wt8?si=7p7McumGTuqU-LpO)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/TPicFnp0Wt8?si=X4OBVBXH2mkjQer6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 and here's the two of them together:
 
-![](https://youtu.be/hJjDOL5C3qA?si=KoAQIi99mCOPLCXN&t=1500)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/hJjDOL5C3qA?si=XjKPx9_peL2Cm02X&amp;start=1500" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-![](https://youtu.be/F2tjvTmbEVw?si=zGdkTW7cduaeO37U)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/F2tjvTmbEVw?si=Q5uDY-gmb_rBQN1N" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
