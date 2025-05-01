@@ -22,8 +22,10 @@ I'll just leave this ticker here and pray...
 
 ## Update
 
-Champions! The graph shows that Feb 22nd was the decisive weekend in the title race when:
+**Champions!**
+
+The graph shows that Feb 22nd was the decisive weekend in the title race when:
 - Arsenal lost 1-0 to West Ham
 - Liverpool beat Man City 2-0
 
-![](/images/liverpool_win_leage_final.png)
+![](/images/liverpool_win_league_final.png)
