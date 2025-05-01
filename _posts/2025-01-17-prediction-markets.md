@@ -20,3 +20,12 @@ I appreciate how you can see the historical prices of each event, with my favour
 I'll just leave this ticker here and pray...
 <iframe title="polymarket-market-iframe" src="https://embed.polymarket.com/market.html?market=liverpool-wins-the-premier-league&features=volume&theme=light" width="400" height="180" frameBorder="0" />
 
+## Update
+
+**Champions!**
+
+The graph shows that Feb 22nd was the decisive weekend in the title race when:
+- Arsenal lost 1-0 to West Ham
+- Liverpool beat Man City 2-0
+
+![](/images/liverpool_win_league_final.png)
