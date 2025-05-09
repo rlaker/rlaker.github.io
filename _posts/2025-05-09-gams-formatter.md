@@ -13,7 +13,7 @@ We can then write the objective function to maximise as:
 $$Z = x_1*v_{1} + x_2*v_{2} + x_3*v_{3} + x_4*v_{4} + x_5*v_{5}$$
 
 subject to the constraint: 
-$$x_1*w_{1} + x_2*w_{2} + x_3*w_{3} + x_4*w_{4} + x_5*w_{5} + \le 100$$
+$$x_1*w_{1} + x_2*w_{2} + x_3*w_{3} + x_4*w_{4} + x_5*w_{5} \le 100$$
 
 This representation obviously does not scale well with 1000s of items, so we can refactor it in GAMS like so:
 
@@ -23,7 +23,7 @@ Z =e= sum(i, x(i) * v(i) )
 
 and 
 
-```gams
+```
 sum(i, x(i) * w(i) ) =l= 100
 ```
 
@@ -47,9 +47,7 @@ This great [intro](https://derek.stride.host/posts/comprehensive-introduction-to
 
 Because we could parse this tree as `(x + y) + z` or `x + ( y + z)` we need to explicitly tell the parser that we prefer the left option (in the `grammar.js` this is done with `prec.left()` wrapped around the rule)
 
-In GAMS you can assign a set like `x = 1`, a subset of the set `x(i) = 1` or an attribute `x.lo(i) = 1`. 
-
-We can set up these rules like so:
+In GAMS you can assign a set like `x = 1`, a subset of the set `x(i) = 1` or an attribute `x.lo(i) = 1`. We can set up these rules like so:
 
 ```javascript
 parameter_reference: $ => seq(
