@@ -10,7 +10,7 @@ redirect_from:
   - /about.html
 ---
 
-Data scientist currently working at [Trainline](https://www.thetrainline.com/) <i class="fas fa-train"></i>. Before that, I studied the solar wind for my PhD at Imperial College London <i class="fas fa-solid fa-sun"></i>, where I also completed my physics degree <i class="fas fa-graduation-cap"></i>.
+Data scientist currently working at [VIOOH](https://www.viooh.com/) <i class="fas fa-train"></i>. Before that, I studied the solar wind for my PhD at Imperial College London <i class="fas fa-solid fa-sun"></i>, where I also completed my physics degree <i class="fas fa-graduation-cap"></i>.
 
 I enjoy having a play with data and seeing how it can help me with my other hobbies, such as [cooking](/cooking) and [photography](/photos).
 

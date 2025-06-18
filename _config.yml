@@ -104,7 +104,7 @@ analytics:
 author:
   name             : "Ronan Laker"
   avatar           : "images/profile.jpeg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Interested in anything data: space, trains and weather balloons"
+  bio              : "Interested in anything data"
   location         : "London"
   email            :
   links:
