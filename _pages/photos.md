@@ -129,12 +129,142 @@ gallerynature:
     title: "Swooping Kestrel"
 ---
 
-
-
-TODO: I need to update this page. See more recent pictures on my [Unsplash profile](https://unsplash.com/@rlaker) but for now there are two galleries below: 
-
+- [Unsplash](#unsplash)
 - [Film Photography](#film-photography)
 - [Nature](#nature)
+
+## Unsplash
+
+My latest photos from [Unsplash](https://unsplash.com/@rlaker).
+
+<div id="unsplash-gallery">
+  <p>Loading photos...</p>
+</div>
+
+<style>
+  #unsplash-gallery .gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.5em;
+  }
+  #unsplash-gallery .gallery-grid a {
+    display: block;
+    overflow: hidden;
+  }
+  #unsplash-gallery .gallery-grid img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    aspect-ratio: 1;
+    transition: transform 0.3s ease;
+  }
+  #unsplash-gallery .gallery-grid a:hover img {
+    transform: scale(1.05);
+  }
+  #unsplash-gallery .load-more {
+    text-align: center;
+    margin-top: 1em;
+  }
+  #unsplash-gallery .load-more button {
+    padding: 0.5em 1.5em;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    background: #fff;
+    font-size: 1em;
+    border-radius: 4px;
+  }
+  #unsplash-gallery .load-more button:hover {
+    background: #f0f0f0;
+  }
+  @media (max-width: 600px) {
+    #unsplash-gallery .gallery-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+</style>
+
+<script>
+(function() {
+  const ACCESS_KEY = 'cXF3TZ02AJlKY_mduNDC6DORmtMaVNVP8aMcpfZJ7iA';
+  const USERNAME = 'rlaker';
+  const PER_PAGE = 12;
+  let page = 1;
+  let loading = false;
+
+  const container = document.getElementById('unsplash-gallery');
+
+  function render(photos, append) {
+    if (!append) container.innerHTML = '';
+
+    let grid = container.querySelector('.gallery-grid');
+    if (!grid) {
+      grid = document.createElement('div');
+      grid.className = 'gallery-grid';
+      container.appendChild(grid);
+    }
+
+    photos.forEach(function(photo) {
+      const a = document.createElement('a');
+      a.href = photo.links.html;
+      a.target = '_blank';
+      a.rel = 'noopener';
+      a.title = photo.description || photo.alt_description || '';
+
+      const img = document.createElement('img');
+      img.src = photo.urls.small;
+      img.alt = photo.alt_description || 'Unsplash photo';
+      img.loading = 'lazy';
+
+      a.appendChild(img);
+      grid.appendChild(a);
+    });
+
+    let loadMoreDiv = container.querySelector('.load-more');
+    if (photos.length === PER_PAGE) {
+      if (!loadMoreDiv) {
+        loadMoreDiv = document.createElement('div');
+        loadMoreDiv.className = 'load-more';
+        const btn = document.createElement('button');
+        btn.textContent = 'Load more';
+        btn.addEventListener('click', loadMore);
+        loadMoreDiv.appendChild(btn);
+        container.appendChild(loadMoreDiv);
+      }
+    } else if (loadMoreDiv) {
+      loadMoreDiv.remove();
+    }
+  }
+
+  function loadPhotos() {
+    if (loading) return;
+    loading = true;
+
+    fetch('https://api.unsplash.com/users/' + USERNAME + '/photos?page=' + page + '&per_page=' + PER_PAGE + '&order_by=latest', {
+      headers: { 'Authorization': 'Client-ID ' + ACCESS_KEY }
+    })
+    .then(function(res) { return res.json(); })
+    .then(function(photos) {
+      if (!Array.isArray(photos) || photos.length === 0) {
+        if (page === 1) container.innerHTML = '<p>No photos found.</p>';
+        return;
+      }
+      render(photos, page > 1);
+      loading = false;
+    })
+    .catch(function() {
+      container.innerHTML = '<p>Could not load photos. Visit my <a href="https://unsplash.com/@rlaker">Unsplash profile</a> instead.</p>';
+      loading = false;
+    });
+  }
+
+  function loadMore() {
+    page++;
+    loadPhotos();
+  }
+
+  loadPhotos();
+})();
+</script>
 
 ## Film Photography
 
