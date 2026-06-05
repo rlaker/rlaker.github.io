@@ -129,12 +129,33 @@ gallerynature:
     title: "Swooping Kestrel"
 ---
 
-
-
-TODO: I need to update this page. See more recent pictures on my [Unsplash profile](https://unsplash.com/@rlaker) but for now there are two galleries below: 
-
+- [Unsplash](#unsplash)
 - [Film Photography](#film-photography)
 - [Nature](#nature)
+
+## Unsplash
+
+My latest photos from [Unsplash](https://unsplash.com/@rlaker).
+
+<div id="unsplash-gallery">
+  <figure class="third">
+    {% for photo in site.data.unsplash %}
+      <a href="{{ photo.url }}" target="_blank" rel="noopener" title="{{ photo.description }}"
+         {% if forloop.index > 12 %}style="display:none" data-unsplash-hidden{% endif %}>
+        <img src="{{ photo.src }}" alt="{{ photo.alt }}" loading="lazy">
+      </a>
+    {% endfor %}
+  </figure>
+</div>
+
+{% if site.data.unsplash.size > 12 %}
+<div id="unsplash-load-more" style="text-align:center;margin-top:1em;">
+  <button onclick="document.querySelectorAll('[data-unsplash-hidden]').forEach(function(el){el.style.display='';el.removeAttribute('data-unsplash-hidden')});this.parentElement.remove();"
+    style="padding:0.5em 1.5em;cursor:pointer;border:1px solid #ccc;background:#fff;font-size:1em;border-radius:4px;">
+    Load more
+  </button>
+</div>
+{% endif %}
 
 ## Film Photography
 
