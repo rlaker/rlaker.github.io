@@ -1,0 +1,53 @@
+name: Fetch Unsplash photos
+
+on:
+  schedule:
+    - cron: "0 6 * * 1"
+  workflow_dispatch:
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch photos from Unsplash
+        env:
+          UNSPLASH_ACCESS_KEY: ${{ secrets.UNSPLASH_ACCESS_KEY }}
+        run: |
+          photos="[]"
+          page=1
+          while true; do
+            batch=$(curl -sf "https://api.unsplash.com/users/rlaker/photos?page=${page}&per_page=30&order_by=latest" \
+              -H "Authorization: Client-ID ${UNSPLASH_ACCESS_KEY}")
+            count=$(echo "$batch" | python3 -c "import json,sys; print(len(json.load(sys.stdin)))")
+            if [ "$count" -eq 0 ]; then
+              break
+            fi
+            photos=$(python3 -c "
+          import json, sys
+          existing = json.loads('$photos') if '$photos' != '[]' else []
+          batch = json.loads(sys.stdin.read())
+          combined = existing + [{
+              'url': p['links']['html'],
+              'src': p['urls']['small'],
+              'alt': p.get('alt_description') or 'Unsplash photo',
+              'description': p.get('description') or p.get('alt_description') or ''
+          } for p in batch]
+          print(json.dumps(combined))
+          " <<< "$batch")
+            if [ "$count" -lt 30 ]; then
+              break
+            fi
+            page=$((page + 1))
+          done
+          echo "$photos" | python3 -m json.tool > _data/unsplash.json
+
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add _data/unsplash.json
+          git diff --cached --quiet && echo "No changes" && exit 0
+          git commit -m "update Unsplash photo data"
+          git push
