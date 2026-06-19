@@ -2,7 +2,7 @@
 title: "Showing my Unsplash gallery on my blog"
 layout: single
 excerpt: "How I embedded my Unsplash photos on my Jekyll site without exposing an API key"
-tags: [code,til]
+tags: [code,til,photo]
 ---
 
 I wanted to show my [Unsplash photos](https://unsplash.com/@rlaker) directly on my [photography page](/photos/) instead of just showing a text link. Since Unsplash doesn't have an embed widget, I needed to use their API.
