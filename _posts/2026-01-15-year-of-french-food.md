@@ -4,7 +4,7 @@ layout: single
 toc: true
 toc_sticky: true
 excerpt: ""
-tags: [food]
+tags: [food,meta]
 ---
 
 I made French food my culinary focus of last year. Each time I wanted a "project" to cook at the weekend, I made it my mission to recreate French classics I saw on YouTube. While I didn't quite make it to recreating Pierre Koffman's pig trotters, which two of my favourite cooking channels did within a week of each other ([Fallow](https://youtu.be/f9kJNrOqYQE?si=IQygS8W_PQzRfgOH) and [Adam Byatt](https://youtu.be/ipqFwCtPOgA?si=CuAdyZ2BdfFmFjpz)), I am pretty proud of the things I managed to make.
