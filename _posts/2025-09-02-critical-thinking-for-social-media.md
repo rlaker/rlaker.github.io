@@ -2,7 +2,7 @@
 title: "What the hell is happening on the internet?"
 layout: single
 excerpt: ""
-tags: []
+tags: [essay]
 ---
 
 As this viral [tweet](https://x.com/molochofficial/status/1858940244567146823?s=12&t=GArJOEJ41SKT7sLfzFsugQ&utm_source=www.garbageday.email&utm_medium=referral&utm_campaign=the-internet-s-most-vocal-freaks) posits, without an apex media predator in Ellen DeGeneres, internet characters are sticking around long enough to become media figures in their own right. Being on the cusp of Milliennials and Gen Z, I have stubbonly refused to install TikTok which means I have no idea who the hell characters like "Beavo" or the "Schooner scorer" are.

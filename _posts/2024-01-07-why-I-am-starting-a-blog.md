@@ -1,3 +1,7 @@
+---
+tags: meta
+---
+
 My goal for 2024 is to write a blog.
 
 I am aware that a blog may seem outdated in the social media age, so I first wanted to set out my aims and motivations for this new project.
