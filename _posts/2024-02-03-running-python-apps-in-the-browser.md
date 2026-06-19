@@ -3,9 +3,9 @@ tags: [til, python, visualisation]
 excerpt: "Using shinylive to run Python apps within the browser"
 ---
 
-I wrote about the [Shiny for Python](https://shiny.posit.co/py) framework in another blog [post](/shiny-web-apps), however, I had not quite grasped the power of [shinylive](https://shiny.posit.co/py/docs/shinylive.html). This uses [pyodide](https://pyodide.org/en/stable/) to run within the browser, allowing interactive web apps to run on static generated sites such as Github Pages or Netlify.
+I wrote about the [Shiny for Python](https://shiny.posit.co/py) framework in another blog [post](/shiny-web-apps/), however, I had not quite grasped the power of [shinylive](https://shiny.posit.co/py/docs/shinylive.html). This uses [pyodide](https://pyodide.org/en/stable/) to run within the browser, allowing interactive web apps to run on static generated sites such as Github Pages or Netlify.
 
-For example, try adjusting the coefficients *below* to model weekly seasonality. For further explanation, see the main blog [post](/linear-models-demystified)
+For example, try adjusting the coefficients *below* to model weekly seasonality. For further explanation, see the main blog [post](/linear-models-demystified/)
 <iframe src="/files/shiny_linear_model/shiny_linear_model.html" width="100%" height="1000px" style="border:none;"></iframe>
 *This is actually running Python in your browser! Inspect the console for this page and you will see that Python packages have been installed.*
 

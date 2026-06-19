@@ -2,7 +2,7 @@
 title: "How would you bring an LLM up to date?"
 layout: single
 excerpt: "and steer its persona towards certain opinions"
-tags: []
+tags: [essay]
 ---
 
 > The following essay was based on an interview question. I had fun doing this mini literature review of LLMs and how to keep their knowledge updated, but it was a bit of a shame to get the "pretend we haven't read this" treatment
@@ -19,7 +19,7 @@ There is too much information being generated in the world to be continuously ad
 
 While this vector database method can work well for some smaller problems, it would be hard to encode all news articles/new websites since Dec 2023 in this system. Instead, we could elicit the help of human editors to sift through the noise and return only the most relevant news/articles over time. This is the idea behind [realtimeQA](https://realtimeqa.github.io/), and the associated [paper](https://arxiv.org/abs/2207.13332). They have built a system that extracts multiple choice questions from 3 news sites, CNN, USA Today and The Week. An average of 10 questions a week per website gives them a corpus of 120 questions a month to keep track of the most important news, which by their inclusion in the quiz have been deemed as noteworthy by a human editor. 
 
-> I wrote about this in more detail [here](www.ronanlaker.com/scraping-quizzes)
+> I wrote about this in more detail [here](/scraping-quizzes/)
 
 Their method attempts to retrieve documents from an external knowledge source in order to help it synthesis an answer. In their case, they use the top-5 Wikipedia articles from a Dense Passage Retrieval (DPR, [Karpukhin 2020](https://arxiv.org/abs/2004.04906)) and the top-5 news articles from the Google search API. This DPR process is very similar to the semantic vector database mentioned above, with the extra step of training on an open QA dataset. After extracting the most relevant articles, the LLM is prompted with the titles and first two paragraphs of those articles along with the publication date. The authors reported significant performance improvements vs the public GPT-3 model, but they also noted that the LLM would still hallucinate and invent an answer rather than telling the user it did not have enough evidence.
 

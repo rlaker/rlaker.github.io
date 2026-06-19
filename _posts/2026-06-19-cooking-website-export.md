@@ -2,7 +2,7 @@
 title: "Publishing my Obsidian cooking vault as a static site"
 layout: single
 excerpt: "Another thing Claude has solved for me"
-tags: [code]
+tags: [code, food]
 ---
 
 I have an Obsidian vault to store everything I know about cooking: recipes, ingredients, cookbooks and restaurant notes. Each has a YAML frontmatter and `[[wikilinks]]` that allow me to query the notes like a database. I publish a public version of these notes at [ronanlaker.com/cooking](https://www.ronanlaker.com/cooking), but the result was always buggy.
