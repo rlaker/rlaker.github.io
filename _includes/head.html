@@ -24,7 +24,8 @@
   {% endfor %}
 {% endif %}
 
-<!-- Mathjax Support -->
-<script type="text/javascript" async
-  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
-</script>
+{%- comment -%}
+  MathJax is loaded once, from cdnjs, in _includes/scripts.html. A second tag
+  used to live here pointing at cdn.mathjax.org — a CDN the MathJax project
+  retired in 2017 — which made every page fetch MathJax twice.
+{%- endcomment -%}
