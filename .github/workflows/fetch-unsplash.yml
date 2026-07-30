@@ -5,6 +5,9 @@ on:
     - cron: "0 6 * * 1"
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   fetch:
     runs-on: ubuntu-latest
@@ -14,34 +17,54 @@ jobs:
       - name: Fetch photos from Unsplash
         env:
           UNSPLASH_ACCESS_KEY: ${{ secrets.UNSPLASH_ACCESS_KEY }}
+        # The quoted heredoc ('PY') stops the shell expanding anything inside,
+        # and the API response is never interpolated into source. Pagination
+        # happens in one process so no response data round-trips via the shell.
         run: |
-          photos="[]"
-          page=1
-          while true; do
-            batch=$(curl -sf "https://api.unsplash.com/users/rlaker/photos?page=${page}&per_page=30&order_by=latest" \
-              -H "Authorization: Client-ID ${UNSPLASH_ACCESS_KEY}")
-            count=$(echo "$batch" | python3 -c "import json,sys; print(len(json.load(sys.stdin)))")
-            if [ "$count" -eq 0 ]; then
-              break
-            fi
-            photos=$(python3 -c "
-          import json, sys
-          existing = json.loads('$photos') if '$photos' != '[]' else []
-          batch = json.loads(sys.stdin.read())
-          combined = existing + [{
-              'url': p['links']['html'],
-              'src': p['urls']['small'],
-              'alt': p.get('alt_description') or 'Unsplash photo',
-              'description': p.get('description') or p.get('alt_description') or ''
-          } for p in batch]
-          print(json.dumps(combined))
-          " <<< "$batch")
-            if [ "$count" -lt 30 ]; then
-              break
-            fi
-            page=$((page + 1))
-          done
-          echo "$photos" | python3 -m json.tool > _data/unsplash.json
+          python3 - <<'PY'
+          import json, os, urllib.request
+
+          PER_PAGE = 30
+          key = os.environ["UNSPLASH_ACCESS_KEY"]
+          photos = []
+          page = 1
+
+          while True:
+              url = (
+                  "https://api.unsplash.com/users/rlaker/photos"
+                  f"?page={page}&per_page={PER_PAGE}&order_by=latest"
+              )
+              request = urllib.request.Request(
+                  url, headers={"Authorization": f"Client-ID {key}"}
+              )
+              with urllib.request.urlopen(request, timeout=30) as response:
+                  batch = json.load(response)
+
+              if not batch:
+                  break
+
+              photos += [
+                  {
+                      "url": p["links"]["html"],
+                      "src": p["urls"]["small"],
+                      "alt": p.get("alt_description") or "Unsplash photo",
+                      "description": p.get("description")
+                      or p.get("alt_description")
+                      or "",
+                  }
+                  for p in batch
+              ]
+
+              if len(batch) < PER_PAGE:
+                  break
+              page += 1
+
+          with open("_data/unsplash.json", "w", encoding="utf-8") as f:
+              json.dump(photos, f, indent=4)
+              f.write("\n")
+
+          print(f"wrote {len(photos)} photos")
+          PY
 
       - name: Commit if changed
         run: |
